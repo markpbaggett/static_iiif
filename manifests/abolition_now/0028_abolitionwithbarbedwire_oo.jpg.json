@@ -1,0 +1,72 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0028_abolitionwithbarbedwire_oo.jpg.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Untitled"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "en": [
+          "Air",
+          "Art",
+          "Barb Wire~Fences~Walls",
+          "Carceral Imagery",
+          "EXEMPLAR",
+          "Elements",
+          "Exemplars",
+          "For Database-Exhibit",
+          "Prison Imagery",
+          "Sky~Void"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0028_abolitionwithbarbedwire_oo.jpg/canvas/1",
+      "type": "Canvas",
+      "height": 723,
+      "width": 1568,
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0028_abolitionwithbarbedwire_oo.jpg/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0028_abolitionwithbarbedwire_oo.jpg/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0028_abolitionwithbarbedwire_oo.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 723,
+                "width": 1568,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0028_abolitionwithbarbedwire_oo.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0028_abolitionwithbarbedwire_oo.jpg/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0038_anotherworldispossible_ru.png.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Untitled"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "en": [
+          "Ariel Diorio (Reilly Makes)",
+          "Artists",
+          "Car",
+          "Carceral Imagery",
+          "EXEMPLAR",
+          "Earth",
+          "Elements",
+          "Exemplars",
+          "For Database-Exhibit",
+          "Growth",
+          "Police Imagery",
+          "Reuse",
+          "World-building"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0038_anotherworldispossible_ru.png/canvas/1",
+      "type": "Canvas",
+      "height": 1386,
+      "width": 2382,
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0038_anotherworldispossible_ru.png/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0038_anotherworldispossible_ru.png/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0038_anotherworldispossible_ru.png/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1386,
+                "width": 2382,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0038_anotherworldispossible_ru.png",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0038_anotherworldispossible_ru.png/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

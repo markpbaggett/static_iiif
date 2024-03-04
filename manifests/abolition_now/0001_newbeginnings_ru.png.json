@@ -1,0 +1,74 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0001_newbeginnings_ru.png.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Untitled"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subjects"
+        ]
+      },
+      "value": {
+        "en": [
+          "Animals",
+          "Art",
+          "Artists",
+          "Butterflies",
+          "Earth",
+          "Elements",
+          "Exemplars",
+          "For Database-Exhibit",
+          "Growth",
+          "Reuse",
+          "Ricardo Levins Morales",
+          "World-building"
+        ]
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_newbeginnings_ru.png/canvas/1",
+      "type": "Canvas",
+      "height": 1540,
+      "width": 932,
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_newbeginnings_ru.png/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_newbeginnings_ru.png/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0001_newbeginnings_ru.png/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1540,
+                "width": 932,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0001_newbeginnings_ru.png",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_newbeginnings_ru.png/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
