@@ -1,0 +1,190 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/abolition_now/0001_anotherworldispossible.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Another World Is Possible"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Worlding/Futures",
+          "Police",
+          "Abolition",
+          "Anti-Capitalism",
+          "Healing",
+          "Militarization",
+          "Worlding/Futures",
+          "Police",
+          "Abolition",
+          "Anti-Capitalism",
+          "Healing",
+          "Militarization"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Visual Motif"
+        ]
+      },
+      "value": {
+        "en": [
+          "Rainbows",
+          "Bees",
+          "Flora",
+          "Skies",
+          "Moon",
+          "Protesters",
+          "Rainbows",
+          "Bees",
+          "Flora",
+          "Skies",
+          "Moon",
+          "Protesters"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Geography"
+        ]
+      },
+      "value": {
+        "en": [
+          "Minneapolis",
+          "Minneapolis"
+        ]
+      }
+    }
+  ],
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com//notdereferenceable/feature/0",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Another World Is Possible -- Minneapolis"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.265,
+            44.9778
+          ]
+        }
+      },
+      {
+        "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com//notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Another World Is Possible -- Minneapolis"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -93.265,
+            44.9778
+          ]
+        }
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.png/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Original Image"
+        ]
+      },
+      "height": 2292,
+      "width": 2700,
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.png/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.png/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0001_anotherworldispossible_oo.png/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 2292,
+                "width": 2700,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0001_anotherworldispossible_oo.png",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.png/canvas/1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.mp4/canvas/2",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Interview"
+        ]
+      },
+      "height": 360,
+      "width": 480,
+      "duration": 636.16,
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.mp4/canvas/2/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.mp4/canvas/2/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://digital.lib.utk.edu/static/0001_anotherworldispossible_oo.mp4",
+                "type": "Video",
+                "height": 360,
+                "width": 480,
+                "duration": 636.16,
+                "format": "video/mp4"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0001_anotherworldispossible_oo.mp4/canvas/2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
