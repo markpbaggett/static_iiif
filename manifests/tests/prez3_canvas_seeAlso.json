@@ -25,11 +25,27 @@
         {
           "id": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/page/p1/1",
           "type": "AnnotationPage",
+          "seeAlso": [
+            {
+              "id": "https://fromthepage.com/tamulibraries/houston-oil-company-of-texas/minutes-of-houston-oil-company-of-texas-b1bc1655-1b0c-4947-8144-c0f657acebb4/annotation/1691796/html/transcription",
+              "type": "Dataset",
+              "format": "text/html",
+              "profile": "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#html-transcription"
+            }
+          ],
           "items": [
             {
               "id": "https://iiif.io/api/cookbook/recipe/0001-mvm-image/annotation/p0001-image",
               "type": "Annotation",
               "motivation": "painting",
+              "seeAlso": [
+                {
+                  "id": "https://fromthepage.com/tamulibraries/houston-oil-company-of-texas/minutes-of-houston-oil-company-of-texas-b1bc1655-1b0c-4947-8144-c0f657acebb4/annotation/1691796/html/transcription",
+                  "type": "Dataset",
+                  "format": "text/html",
+                  "profile": "https://github.com/benwbrum/fromthepage/wiki/FromThePage-Support-for-the-IIIF-Presentation-API-and-Web-Annotations#html-transcription"
+                }
+              ],
               "body": {
                 "id": "http://iiif.io/api/presentation/2.1/example/fixtures/resources/page1-full.png",
                 "type": "Image",
