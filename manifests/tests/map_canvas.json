@@ -1,0 +1,42 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/georef/1/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/tests/map_canvas.json",
+  "type": "Canvas",
+  "label": {
+    "en": [
+      "Testing Georeference with Map of Texas"
+    ]
+  },
+  "height": 18300,
+  "width": 16203,
+  "items": [
+    {
+      "id": "http://www.example.org/contentPage.json",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "http://www.example.org/content.json",
+          "type": "Annotation",
+          "motivation": "painting",
+          "body": {
+            "id": "https://api.library.tamu.edu/iiif/2/f10c7823-4e52-334d-829a-239b69b9f81d;1/full/full/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 18300,
+            "width": 16203,
+            "service": [
+              {
+                "id": "https://api.library.tamu.edu/iiif/2/f10c7823-4e52-334d-829a-239b69b9f81d;1/info.json\",",
+                "type": "ImageService2"
+              }
+            ]
+          },
+          "target": "https://raw.githubusercontent.com/markpbaggett/static_iiif/main/manifests/tests/map_canvas.json"
+        }
+      ]
+    }
+  ]
+}
