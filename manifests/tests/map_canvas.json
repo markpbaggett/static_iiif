@@ -38,5 +38,55 @@
         }
       ]
     }
+  ],
+  "annotations": [
+    {
+      "id": "http://www.example.org/annotationPage.json",
+      "type": "AnnotationPage",
+      "items": [
+        {
+          "id": "http://www.example.org/canvas-annotation.json",
+          "type": "Annotation",
+          "motivation": "georeferencing",
+          "target": "http://www.example.org/georeferenced-canvas.json",
+          "body": {
+            "id": "http://www.example.org/feature-collection.json",
+            "type": "FeatureCollection",
+            "transformation": {
+              "type": "polynomial",
+              "options": {
+                "order": 1
+              }
+            },
+            "features": [
+              {
+                "type": "Feature",
+                "properties": {
+                  "resourceCoords": [
+                    12295,
+                    9478
+                  ]
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    95.2770,
+                    29.7207
+                  ]
+                },
+                "metadata": {
+                  "label": "Harrisburg",
+                  "tags": [
+                    "Town"
+                  ],
+                  "url": "https://maps.app.goo.gl/dJdXXQEA8dWSptgt8",
+                  "xywh": "11871,9262,583,392"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
   ]
 }
