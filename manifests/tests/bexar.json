@@ -14,7 +14,7 @@
   "width": 16203,
   "items": [
     {
-      "id": "http://example.org/iiif/2",
+      "id": "http://example.org/iiif/3",
       "type": "AnnotationPage",
       "items": [
         {
@@ -22,11 +22,11 @@
           "type": "Annotation",
           "motivation": "painting",
           "body": {
-            "id": "https://example.org/georeferencing-example/canvas/p1/annotation/0/resource",
+            "id": "https://api.library.tamu.edu/iiif/2/f10c7823-4e52-334d-829a-239b69b9f81d;1/full/full/0/default.png",
             "type": "Image",
             "service": [
               {
-                "id": "http://example.org/iiif/1",
+                "id": "https://api.library.tamu.edu/iiif/2/f10c7823-4e52-334d-829a-239b69b9f81d;1",
                 "type": "ImageService2",
                 "profile": "http://iiif.io/api/image/2/level2.json"
               }
@@ -39,7 +39,7 @@
   ],
   "annotations": [
     {
-      "id": "http://example.org/iiif/3",
+      "id": "http://example.org/iiif/4",
       "type": "AnnotationPage",
       "items": [
         {
@@ -50,33 +50,6 @@
             "id": "https://example.org/georeferencing-example/canvas/p1/feature-collection",
             "type": "FeatureCollection",
             "features": [
-              {
-                "type": "Feature",
-                "properties": {
-                  "resourceCoords": [
-                    [
-                      7622,
-                      10132
-                    ]
-                  ]
-                },
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [
-                    -98.49260330200197,
-                    29.424646917238537
-                  ]
-                },
-                "metadata": {
-                  "label": "San Antonia (Bexar)",
-                  "tags": [
-                    "towns",
-                    "places"
-                  ],
-                  "url": "https://www.tshaonline.org/handbook/entries/bexar-county",
-                  "xywh": "7182,9847,599,600"
-                }
-              },
               {
                 "type": "Feature",
                 "properties": {
