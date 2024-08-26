@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/20240813_0010.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "20240813_0010"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240813_0010"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/6d5def68-fdc9-40f8-a6d0-32ae85c309f7/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Test"
+        ]
+      },
+      "height": 8932,
+      "width": 12138,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/ec6b761b-b49f-4c3a-853e-9d6d9981da0d/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/7da4391f-3ecc-4d29-94c8-7e6bd356fa98/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-08-13/20240813_0010_XXI_Corps.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 8932,
+                "width": 12138,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-08-13/20240813_0010_XXI_Corps.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/6d5def68-fdc9-40f8-a6d0-32ae85c309f7/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

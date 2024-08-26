@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/20240813_0036.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "20240813_0036"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240813_0036"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/6d5cbba1-cde2-4e3a-88ce-e1abd2aff1f4/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Test"
+        ]
+      },
+      "height": 7429,
+      "width": 9413,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/27515591-799e-46b9-9aab-b4b8946caf19/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/de19022d-b058-4490-a4e5-455acbdaa634/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-08-13/20240813_0036_88_Blue_Devil_Division.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 7429,
+                "width": 9413,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-08-13/20240813_0036_88_Blue_Devil_Division.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/6d5cbba1-cde2-4e3a-88ce-e1abd2aff1f4/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
