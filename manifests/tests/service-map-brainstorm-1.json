@@ -46,34 +46,11 @@
           "id": "https://example.org/georeferencing-example/canvas/p1/georef/annotation/0",
           "type": "Annotation",
           "motivation": "georeferencing",
+          "target": "https://example.org/georeferencing-example/canvas/p1",
           "body": {
             "id": "https://example.org/georeferencing-example/canvas/p1/feature-collection",
             "type": "FeatureCollection",
             "features": [
-              {
-                "type": "Feature",
-                "properties": {
-                  "resourceCoords": [
-                    6258,
-                    2083
-                  ]
-                },
-                "geometry": {
-                  "type": "Point",
-                  "coordinates": [
-                    7.6849365142732715,
-                    45.08321791050359
-                  ]
-                },
-                "metadata": {
-                  "label": "Torino 1 May - 2335 B",
-                  "tags": [
-                    "places"
-                  ],
-                  "url": "",
-                  "xywh": "5773,1525,1200,1199"
-                }
-              },
               {
                 "type": "Feature",
                 "properties": {
@@ -90,17 +67,40 @@
                   ]
                 },
                 "metadata": {
-                  "label": "Mussolini Shot in Como, April 28, 1945",
+                  "label": "April 28, 1945 - Mussolini Shot",
                   "tags": [
                     "events"
                   ],
                   "url": "https://www.nationalww2museum.org/death-of-benito-mussolini",
                   "xywh": "6980,692,1200,1199"
                 }
+              },
+              {
+                "type": "Feature",
+                "properties": {
+                  "resourceCoords": [
+                    6258,
+                    2083
+                  ]
+                },
+                "geometry": {
+                  "type": "Point",
+                  "coordinates": [
+                    7.6849365142732715,
+                    45.08321791050359
+                  ]
+                },
+                "metadata": {
+                  "label": "May 1, 1945 - IV Corps Liberates 24,580 Square Miles of Italy",
+                  "tags": [
+                    "places"
+                  ],
+                  "url": "",
+                  "xywh": "5773,1525,1200,1199"
+                }
               }
             ]
-          },
-          "target": "https://example.org/georeferencing-example/canvas/p1"
+          }
         }
       ]
     }
