@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0026.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "USS LST 461"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0026"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0026_USS LST 461.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/2769c759-7908-4de9-a81a-b85d001e6bc4/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0026_USS_LST_461.jpg"
+        ]
+      },
+      "height": 11959,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/120fa2fb-7bd8-461e-9877-d9fefc09b3be/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/1745bec0-0891-4c6b-8ae0-f3e16e186ca6/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0026_USS_LST_461.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 11959,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0026_USS_LST_461.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/2769c759-7908-4de9-a81a-b85d001e6bc4/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

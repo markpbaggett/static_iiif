@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0005.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "9th Armored Div"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0005"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0005_9th Armored Div.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/d30bcf9f-2b58-428e-9ad5-093c0e5385a8/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0005_9th_Armored_Div.jpg"
+        ]
+      },
+      "height": 8251,
+      "width": 17134,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/c4817963-ebf4-4c71-90dd-9e105ce79675/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/f2932aa3-18f8-49e8-88a4-a7806f542418/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0005_9th_Armored_Div.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 8251,
+                "width": 17134,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0005_9th_Armored_Div.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/d30bcf9f-2b58-428e-9ad5-093c0e5385a8/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

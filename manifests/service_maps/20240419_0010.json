@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/20240419_0010.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "XIX Corps"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240419_0010"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240419_0010_XIX Corps.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/67934f7a-2fa3-4fd1-a7ca-ea815b927edd/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240419_0010_XIX_Corps.jpg"
+        ]
+      },
+      "height": 13903,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/e06410c6-5484-4452-a750-bbc825d47ced/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/cdab89ef-3b2c-4613-a2a0-62d411a524fb/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-04-19/20240419_0010_XIX_Corps.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 13903,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-04-19/20240419_0010_XIX_Corps.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/67934f7a-2fa3-4fd1-a7ca-ea815b927edd/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

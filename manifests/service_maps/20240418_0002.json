@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/20240418_0002.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "USS Pathfinder"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240418_0002"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240418_0002_USS Pathfinder.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/cef1f551-71c5-4807-a872-d7d54772ab66/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240418_0002_USS_Pathfinder.jpg"
+        ]
+      },
+      "height": 10952,
+      "width": 13866,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/409f3747-7e6e-4957-8b17-1e7be028642b/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/34efe079-fefa-47e8-b736-00617b6250de/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-04-19/20240418_0002_USS_Pathfinder.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 10952,
+                "width": 13866,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-04-19/20240418_0002_USS_Pathfinder.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/cef1f551-71c5-4807-a872-d7d54772ab66/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

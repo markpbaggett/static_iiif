@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/20240419_0011.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "517 attack"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240419_0011"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "20240419_0011_517 attack.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/cfb53a12-e405-4ec1-be68-ec3bd93935bb/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "20240419_0011_517_attack.jpg"
+        ]
+      },
+      "height": 13580,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/dbdf360e-e751-48aa-9bd7-649e8ea69c41/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/448b251c-3dfc-48d0-bfa6-965b264cfcb2/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-04-19/20240419_0011_517_attack.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 13580,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-04-19/20240419_0011_517_attack.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/cfb53a12-e405-4ec1-be68-ec3bd93935bb/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

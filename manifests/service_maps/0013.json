@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0013.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "36th Infantry Division"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0013"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0013_36th Infantry Division.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/da6e4f14-d872-4802-9aab-e07f263a78b7/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0013_36th_Infantry_Division.jpg"
+        ]
+      },
+      "height": 10287,
+      "width": 16720,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/3910f0c0-2889-4ecb-8e82-3f424aa39c6e/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/e6f0dc55-9e49-4f5a-8eaf-6c47b8468822/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0013_36th_Infantry_Division.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 10287,
+                "width": 16720,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0013_36th_Infantry_Division.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/da6e4f14-d872-4802-9aab-e07f263a78b7/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

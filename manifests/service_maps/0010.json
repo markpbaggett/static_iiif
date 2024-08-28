@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0010.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "66 Infantry Regiment"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0010"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0010_66 Infantry Regiment.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/6314f8e0-5435-4d4e-b10d-4fe8c2280d6c/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0010_66_Infantry_Regiment.jpg"
+        ]
+      },
+      "height": 10096,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/d21b3c4a-da91-4628-9a1e-b9ce42f29fcb/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/c35afe28-0a86-4e45-9b91-70e3f4cc2321/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0010_66_Infantry_Regiment.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 10096,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0010_66_Infantry_Regiment.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/6314f8e0-5435-4d4e-b10d-4fe8c2280d6c/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

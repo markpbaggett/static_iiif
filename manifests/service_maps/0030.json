@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0030.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "549 AAA Battalion"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0030"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0030_549 AAA Battalion.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/7e8f69ff-bde8-4e5f-a86c-64c3bbe7bd5e/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0030_549_AAA_Battalion.jpg"
+        ]
+      },
+      "height": 14529,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/d0363024-85f8-4a4b-9b24-3ddd6c796677/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/1103a7d4-bc74-4d4e-87bf-881813f1ad41/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0030_549_AAA_Battalion.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 14529,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0030_549_AAA_Battalion.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/7e8f69ff-bde8-4e5f-a86c-64c3bbe7bd5e/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

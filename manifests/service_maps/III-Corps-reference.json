@@ -1,0 +1,90 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/III-Corps-reference.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "III-Corps-reference"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "III-Corps-reference"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G6081.S7 1945 .A12"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "III-Corps-reference.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/44cf28c1-0a05-4027-b8a7-2a7838e7dd52/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "III-Corps-reference.jpg"
+        ]
+      },
+      "height": 14484,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/8989e124-fa7a-4f10-8cd9-1daca77b28c9/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/2899c297-9112-48ed-b591-afbdc55f5538/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/7-26-2023/III-Corps-reference.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 14484,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/7-26-2023/III-Corps-reference.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/44cf28c1-0a05-4027-b8a7-2a7838e7dd52/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

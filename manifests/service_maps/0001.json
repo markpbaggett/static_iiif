@@ -1,0 +1,90 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0001.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "\"Hell on wheels\" war against the Axis, 1942-1943-1944-1945"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0001"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {
+        "en": [
+          "G5701.S7 1945 .H45"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0001_Hell on Wheels.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/65086452-fe7d-40ce-b26f-21a3eb3828b2/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0001_Hell_on_Wheels.jpg"
+        ]
+      },
+      "height": 12770,
+      "width": 18000,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/1dd23537-7871-451c-a8b8-ebee1c8b5af7/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/5f4ee037-359d-434a-9c1d-6c2ea6ea4b5b/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0001_Hell_on_Wheels.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 12770,
+                "width": 18000,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0001_Hell_on_Wheels.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/65086452-fe7d-40ce-b26f-21a3eb3828b2/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

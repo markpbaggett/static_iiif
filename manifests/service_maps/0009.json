@@ -1,0 +1,86 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/0009.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "215 F.A. Bn"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "en": [
+          "0009"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Call Number"
+        ]
+      },
+      "value": {}
+    },
+    {
+      "label": {
+        "en": [
+          "Original Filenames"
+        ]
+      },
+      "value": {
+        "en": [
+          "0009_215 F.A. Bn.jpg"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/NoC-US/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/c62c6a53-2cb9-4898-ae4b-83f3a9ecbcbd/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "0009_215_F.A._Bn.jpg"
+        ]
+      },
+      "height": 18000,
+      "width": 13669,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/8a9594ae-eb28-4f65-8dc1-8fff6faf8157/canvas/1/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/330a2be9-04df-4eaa-8483-f8915f9a8d59/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0009_215_F.A._Bn.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 18000,
+                "width": 13669,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/2024-07-01/0009_215_F.A._Bn.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/service_maps/c62c6a53-2cb9-4898-ae4b-83f3a9ecbcbd/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
