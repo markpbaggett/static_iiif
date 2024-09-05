@@ -1,0 +1,126 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0240_aworldwithoutwalls.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "A World Without Walls"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Worlding/Futures"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Artist"
+        ]
+      },
+      "value": {
+        "en": [
+          "James P. Anderson"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+  "homepage": [
+    {
+      "id": "https://abolition-now.github.io/an/works/a-world-without-walls",
+      "type": "Text",
+      "label": {
+        "en": [
+          "A World Without Walls"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "en"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0240_aworldwithoutwalls_oo.jpg/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Original Image"
+        ]
+      },
+      "height": 944,
+      "width": 1200,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Subject"
+            ]
+          },
+          "value": {
+            "en": [
+              "Worlding/Futures"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0240_aworldwithoutwalls_oo.jpg/full/600,472/0/default.jpg",
+          "type": "Image",
+          "height": 472,
+          "width": 600,
+          "service": [
+            {
+              "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0240_aworldwithoutwalls_oo.jpg",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0240_aworldwithoutwalls_oo.jpg/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0240_aworldwithoutwalls_oo.jpg/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0240_aworldwithoutwalls_oo.jpg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 944,
+                "width": 1200,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0240_aworldwithoutwalls_oo.jpg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0240_aworldwithoutwalls_oo.jpg/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

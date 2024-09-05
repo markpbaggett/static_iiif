@@ -1,0 +1,126 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0229_kickthemout.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Kick Them Out"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Police"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Artist"
+        ]
+      },
+      "value": {
+        "en": [
+          "N.O. Bonzo (nobonzo)"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+  "homepage": [
+    {
+      "id": "https://abolition-now.github.io/an/works/kick-them-out",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Kick Them Out"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "en"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0229_kickthemout_oo.png/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Original Image"
+        ]
+      },
+      "height": 1312,
+      "width": 1122,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Subject"
+            ]
+          },
+          "value": {
+            "en": [
+              "Police"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0229_kickthemout_oo.png/full/280,328/0/default.jpg",
+          "type": "Image",
+          "height": 328,
+          "width": 280,
+          "service": [
+            {
+              "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0229_kickthemout_oo.png",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0229_kickthemout_oo.png/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0229_kickthemout_oo.png/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0229_kickthemout_oo.png/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1312,
+                "width": 1122,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0229_kickthemout_oo.png",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0229_kickthemout_oo.png/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

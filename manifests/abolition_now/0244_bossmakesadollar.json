@@ -1,0 +1,126 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0244_bossmakesadollar.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Organize"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Subject"
+        ]
+      },
+      "value": {
+        "en": [
+          "Anti-Capitalism"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Artist"
+        ]
+      },
+      "value": {
+        "en": [
+          "Tabitha Arnold "
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+  "homepage": [
+    {
+      "id": "https://abolition-now.github.io/an/works/organize",
+      "type": "Text",
+      "label": {
+        "en": [
+          "Organize"
+        ]
+      },
+      "format": "text/html",
+      "language": [
+        "en"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0244_bossmakesadollar_oo.jpeg/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Original Image"
+        ]
+      },
+      "height": 1200,
+      "width": 1200,
+      "metadata": [
+        {
+          "label": {
+            "en": [
+              "Subject"
+            ]
+          },
+          "value": {
+            "en": [
+              "Anti-Capitalism"
+            ]
+          }
+        }
+      ],
+      "thumbnail": [
+        {
+          "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0244_bossmakesadollar_oo.jpeg/full/300,300/0/default.jpg",
+          "type": "Image",
+          "height": 300,
+          "width": 300,
+          "service": [
+            {
+              "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0244_bossmakesadollar_oo.jpeg",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0244_bossmakesadollar_oo.jpeg/canvas/1/annotation/1/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0244_bossmakesadollar_oo.jpeg/canvas/1/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0244_bossmakesadollar_oo.jpeg/full/max/0/default.jpg",
+                "type": "Image",
+                "height": 1200,
+                "width": 1200,
+                "service": [
+                  {
+                    "id": "https://strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws/iiif/3/0244_bossmakesadollar_oo.jpeg",
+                    "type": "ImageService3",
+                    "profile": "level2"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://aboltion-now-manifests.s3.us-east-2.amazonaws.com/0244_bossmakesadollar_oo.jpeg/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "@context": [
+    "http:\/\/iiif.io\/api\/extension\/navplace\/context.json",
+    "http:\/\/iiif.io\/api\/presentation\/3\/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/tests/avalon_vid.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Sample Avalon Video"
+    ]
+  },
+  "items": [
+    {
+      "id": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0",
+      "type": "Canvas",
+      "label": {
+        "none": [
+          "Interview with Seemona and Daniel Whaley, 2019-09-20"
+        ]
+      },
+      "height": 1080,
+      "width": 1920,
+      "duration": 256,
+      "items": [
+        {
+          "id": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0\/page\/rfta%3A8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0\/page\/rfta%3A8\/66a8f9940614c",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://markpbaggett.github.io/tamu-captions/fixtures/gerald-griffin_014_access-low.mp4",
+                "type": "Video",
+                "width": 1920,
+                "height": 1080,
+                "duration": 256,
+                "format": "video\/mp4"
+              },
+              "target": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0\/page\/annotation\/rfta%3A8",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0\/page\/annotation\/rfta%3A8\/66a8f994540ed",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://markpbaggett.github.io/tamu-captions/base/gerald-griffin_014_access-low_base.vtt",
+                "type": "Text",
+                "format": "text\/vtt",
+                "label": {
+                  "en": [
+                    "Captions in English"
+                  ]
+                },
+                "language": "en"
+              },
+              "target": "https:\/\/digital.lib.utk.edu\/notdereferenceable\/assemble\/manifest\/rfta\/8\/canvas\/0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
