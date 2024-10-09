@@ -1,0 +1,46 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/hugelossy.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "A Huge Lossy JP2"
+    ]
+  },
+  "items": [
+    {
+      "id": "ttps://markpbaggett.github.io/static_iiif/manifests/tests/hugelossy/canvas/p1",
+      "type": "Canvas",
+      "height": 18880,
+      "width": 23584,
+      "items": [
+        {
+          "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/page/p1/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.io/api/cookbook/recipe/0005-image-service/annotation/p0001-image",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-dev.library.tamu.edu/iiif/2/ZmVkb3JhOjBhL2ViLzAwLzdkLzBhZWIwMDdkLTY4YmMtNGMzMS1iZWNlLTUwODExMmU2ZjljNy9sb3NzeS1qcDItMl9vYmplY3RzLzIvcGFnZXMvcGFnZV8wL2ZpbGVzLzEwM3JkX0V2YWN1YXRpb25fSG9zcGl0YWxfU01fXzIuanAy/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 18880,
+                "width": 23584,
+                "service": [
+                  {
+                    "@id": "https://api-dev.library.tamu.edu/iiif/2/ZmVkb3JhOjBhL2ViLzAwLzdkLzBhZWIwMDdkLTY4YmMtNGMzMS1iZWNlLTUwODExMmU2ZjljNy9sb3NzeS1qcDItMl9vYmplY3RzLzIvcGFnZXMvcGFnZV8wL2ZpbGVzLzEwM3JkX0V2YWN1YXRpb25fSG9zcGl0YWxfU01fXzIuanAy",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "ttps://markpbaggett.github.io/static_iiif/manifests/tests/hugelossy/canvas/p1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
