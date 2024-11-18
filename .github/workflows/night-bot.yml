@@ -1,0 +1,29 @@
+name: Nightly run to create export of all Allmaps annotations that I care about
+on:
+  schedule:
+    - cron: '10 18 * * *'
+  workflow_dispatch:
+jobs:
+  nightly-download-allmaps-annotations:
+    name: Write annotations
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: cURL TAMU Pre things
+        run: |-
+          curl -o ./allmaps/tamu-pre.json "https://annotations.allmaps.org/maps?imageservicedomain=api-pre.library.tamu.edu&limit=-1"
+      - name: curl UTK things
+        run: |-
+          curl -o ./allmaps/tamu-pre.json "https://annotations.allmaps.org/maps?imageservicedomain=digital.lib.utk.edu&limit=-1"
+      - name: curl Mark personal things
+        run: |-
+          curl -o ./allmaps/mark.json "https://annotations.allmaps.org/maps?imageservicedomain=strob6zro3bzklrulaqu2545sy0odbvz.lambda-url.us-east-2.on.aws&limit=-1"
+      - name: Commit and push if it changed
+        run: |-
+          git config user.name "markpbaggett"
+          git config user.email "markpbaggett@gmail.com"
+          git add -A
+          timestamp=$(date -u)
+          git commit -m "Allmaps data export: ${timestamp}" || exit 0
+          git push
