@@ -1,0 +1,51 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://iiif.archive.org/iiif/cc4ia-Polar_Plunge_Promo_-_2018/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "test"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://iiif.archive.org/iiif/cc4ia-Polar_Plunge_Promo_-_2018/Polar_Plunge_Promo_-_2018.HD/canvas",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "Polar_Plunge_Promo_-_2018.HD"
+        ]
+      },
+      "height": 720,
+      "width": 1280,
+      "duration": 91.39,
+      "items": [
+        {
+          "id": "https://iiif.archive.org/iiif/cc4ia-Polar_Plunge_Promo_-_2018/Polar_Plunge_Promo_-_2018.HD/canvas",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://iiif.archive.org/iiif/cc4ia-Polar_Plunge_Promo_-_2018/Polar_Plunge_Promo_-_2018.HD/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://archive.org/download/cc4ia-Polar_Plunge_Promo_-_2018/Polar_Plunge_Promo_-_2018.mp4",
+                "type": "Video",
+                "height": 720,
+                "width": 1280,
+                "duration": 91.39,
+                "format": "video/mpeg",
+                "label": {
+                  "en": [
+                    "h.264"
+                  ]
+                }
+              },
+              "target": "https://iiif.archive.org/iiif/cc4ia-Polar_Plunge_Promo_-_2018/Polar_Plunge_Promo_-_2018.HD/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
