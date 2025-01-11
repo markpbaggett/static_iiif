@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/presentation/3/context.json",
-  "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/phelan_test.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/rainer.json",
   "type": "Manifest",
   "label": {
     "en": [
@@ -180,8 +180,12 @@
                 }
               ],
               "target": {
-                "type": "SvgSelector",
-                "value": "<svg><ellipse cx=\"6188\" cy=\"1975\" rx=\"492\" ry=\"157\" /></svg>"
+                "type": "SpecificResource",
+                "source": "https://markpbaggett.github.io/static_iiif/manifests/service_maps_demo/service_maps_0074/canvas/1",
+                "selector": {
+                  "type": "SvgSelector",
+                  "value": "<svg><ellipse cx=\"6188\" cy=\"1975\" rx=\"492\" ry=\"157\" /></svg>"
+                }
               }
             },
             {
@@ -198,8 +202,12 @@
                 }
               ],
               "target": {
-                "type": "SvgSelector",
-                "value": "<svg><ellipse cx=\"6058\" cy=\"1450\" rx=\"261\" ry=\"153\" /></svg>"
+                "type": "SpecificResource",
+                "source": "https://markpbaggett.github.io/static_iiif/manifests/service_maps_demo/service_maps_0074/canvas/1",
+                "selector": {
+                  "type": "SvgSelector",
+                  "value": "<svg><ellipse cx=\"6058\" cy=\"1450\" rx=\"261\" ry=\"153\" /></svg>"
+                }
               }
             }
           ]
