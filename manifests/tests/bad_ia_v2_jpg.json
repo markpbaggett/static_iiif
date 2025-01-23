@@ -1,0 +1,61 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://markpbaggett.github.io/static_iiif/manifests/tests/bad_ia_v2_jpg.json",
+  "@type": "sc:Manifest",
+  "attribution": "The Internet Archive",
+  "description": "<div>Image: \"E_2_203_4_1_P_3.JPG\" , published by Open Context at: <a href=\"http://opencontext.org/media/F7880E49-8FAA-4C61-8AF1-A15433878374\" rel=\"nofollow\">http://opencontext.org/media/F7880E49-8FAA-4C61-8AF1-A15433878374</a>; as part of the \"<a href=\"http://opencontext.org/projects/3DE4CD9C-259E-4C14-9B03-8B10454BA66E\" rel=\"nofollow\">Kenan Tepe</a>\" data publication.</div>",
+  "label": "E_2_203_4_1_P_3.JPG from Turkey/Kenan Tepe/Area E/Trench 2/Locus 203/Finds Bag 4/Object 1",
+  "logo": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcReMN4l9cgu_qb1OwflFeyfHcjp8aUfVNSJ9ynk2IfuHwW1I4mDSw",
+  "metadata": [
+    {
+      "label": "title",
+      "value": "E_2_203_4_1_P_3.JPG from Turkey/Kenan Tepe/Area E/Trench 2/Locus 203/Finds Bag 4/Object 1"
+    },
+    {
+      "label": "publisher",
+      "value": "Open Context (http://opencontext.org)"
+    }
+  ],
+  "seeAlso": "https://archive.org/metadata/opencontext-22-e-2-203-4-1-p-3jpg",
+  "sequences": [
+    {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://localhost:8080/iiif/opencontext-22-e-2-203-4-1-p-3jpg/canvas/default",
+      "@type": "sc:Sequence",
+      "canvases": [
+        {
+          "@context": "http://iiif.io/api/presentation/2/context.json",
+          "@id": "https://iiif.archivelab.org/iiif/opencontext-22-e-2-203-4-1-p-3jpg/canvas",
+          "@type": "sc:Canvas",
+          "description": "<div>Image: \"E_2_203_4_1_P_3.JPG\" , published by Open Context at: <a href=\"http://opencontext.org/media/F7880E49-8FAA-4C61-8AF1-A15433878374\" rel=\"nofollow\">http://opencontext.org/media/F7880E49-8FAA-4C61-8AF1-A15433878374</a>; as part of the \"<a href=\"http://opencontext.org/projects/3DE4CD9C-259E-4C14-9B03-8B10454BA66E\" rel=\"nofollow\">Kenan Tepe</a>\" data publication.</div>",
+          "height": 2048,
+          "images": [
+            {
+              "@context": "http://iiif.io/api/image/2/context.json",
+              "@id": "https://localhost:8080/iiif/opencontext-22-e-2-203-4-1-p-3jpg/annotation",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "on": "https://localhost:8080/iiif/opencontext-22-e-2-203-4-1-p-3jpg/annotation",
+              "resource": {
+                "@id": "https://localhost:8080/iiif/opencontext-22-e-2-203-4-1-p-3jpg/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "height": 2048,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://localhost:8080/iiif/opencontext-22-e-2-203-4-1-p-3jpg",
+                  "profile": "https://iiif.io/api/image/2/profiles/level2.json"
+                },
+                "width": 3072
+              }
+            }
+          ],
+          "label": "E_2_203_4_1_P_3.JPG from Turkey/Kenan Tepe/Area E/Trench 2/Locus 203/Finds Bag 4/Object 1",
+          "width": 3072
+        }
+      ],
+      "label": "default"
+    }
+  ],
+  "viewingHint": "paged"
+}
