@@ -1,0 +1,152 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/2984383353_eb698a8de8_o.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Century Tree"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Filename"
+        ]
+      },
+      "value": {
+        "en": [
+          "2984383353_eb698a8de8_o.jpg"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coordinates"
+        ]
+      },
+      "value": {
+        "en": [
+          "30.61591873065132, -96.34133647593396"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Caption"
+        ]
+      },
+      "value": {
+        "en": [
+          "Century Tree"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Century Tree"
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/2984383353_eb698a8de8_o/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Century Tree"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34133647593396,
+            30.61591873065132
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC8yOTg0MzgzMzUzX2ViNjk4YThkZThfby5qcGc=/full/1300,/0/default.jpg",
+      "type": "Image",
+      "height": 924,
+      "width": 1300,
+      "service": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC8yOTg0MzgzMzUzX2ViNjk4YThkZThfby5qcGc=",
+          "type": "ImageService3",
+          "profile": "level2"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/2984383353_eb698a8de8_o/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "image 1"
+        ]
+      },
+      "height": 1848,
+      "width": 2600,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC8yOTg0MzgzMzUzX2ViNjk4YThkZThfby5qcGc=/full/1300,/0/default.jpg",
+          "type": "Image",
+          "height": 924,
+          "width": 1300,
+          "service": [
+            {
+              "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC8yOTg0MzgzMzUzX2ViNjk4YThkZThfby5qcGc=",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/2984383353_eb698a8de8_o/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC8yOTg0MzgzMzUzX2ViNjk4YThkZThfby5qcGc=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1848,
+                "width": 2600,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC8yOTg0MzgzMzUzX2ViNjk4YThkZThfby5qcGc=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/2984383353_eb698a8de8_o/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

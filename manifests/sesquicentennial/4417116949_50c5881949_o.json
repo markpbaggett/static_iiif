@@ -1,0 +1,164 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/4417116949_50c5881949_o.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Moses Hall"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Filename"
+        ]
+      },
+      "value": {
+        "en": [
+          "4417116949_50c5881949_o.jpg"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Date"
+        ]
+      },
+      "value": {
+        "en": [
+          "1972"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coordinates"
+        ]
+      },
+      "value": {
+        "en": [
+          "30.61588103895704, -96.34567158783693"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Caption"
+        ]
+      },
+      "value": {
+        "en": [
+          "Moses Hall with student"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      "Moses Hall with student"
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/4417116949_50c5881949_o/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Moses Hall"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34567158783693,
+            30.61588103895704
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC80NDE3MTE2OTQ5XzUwYzU4ODE5NDlfby5qcGc=/full/523,/0/default.jpg",
+      "type": "Image",
+      "height": 419,
+      "width": 523,
+      "service": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC80NDE3MTE2OTQ5XzUwYzU4ODE5NDlfby5qcGc=",
+          "type": "ImageService3",
+          "profile": "level2"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/4417116949_50c5881949_o/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "image 1"
+        ]
+      },
+      "height": 838,
+      "width": 1046,
+      "thumbnail": [
+        {
+          "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC80NDE3MTE2OTQ5XzUwYzU4ODE5NDlfby5qcGc=/full/523,/0/default.jpg",
+          "type": "Image",
+          "height": 419,
+          "width": 523,
+          "service": [
+            {
+              "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC80NDE3MTE2OTQ5XzUwYzU4ODE5NDlfby5qcGc=",
+              "type": "ImageService3",
+              "profile": "level2"
+            }
+          ],
+          "format": "image/jpeg"
+        }
+      ],
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/4417116949_50c5881949_o/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC80NDE3MTE2OTQ5XzUwYzU4ODE5NDlfby5qcGc=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 838,
+                "width": 1046,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9saXZlLnN0YXRpY2ZsaWNrci5jb20vNDAyOC80NDE3MTE2OTQ5XzUwYzU4ODE5NDlfby5qcGc=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/sesquicentennial/4417116949_50c5881949_o/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
