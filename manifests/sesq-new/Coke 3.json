@@ -1,0 +1,136 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Coke%203.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Coke Building"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Filename"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coke 3.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coordinates"
+        ]
+      },
+      "value": {
+        "en": [
+          "30.61515374167003, -96.34183844920439"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Coke Building"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      " "
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Coke 3/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Coke Building"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34183844920439,
+            30.61515374167003
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMTYvcGFnZXMvcGFnZV8wL2ZpbGVzL0Nva2UlMjAzLnRpZg==/full/688,/0/default.jpg",
+      "type": "Image",
+      "height": 491,
+      "width": 688,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMTYvcGFnZXMvcGFnZV8wL2ZpbGVzL0Nva2UlMjAzLnRpZg==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Coke%203/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "image 1"
+        ]
+      },
+      "height": 1964,
+      "width": 2750,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Coke%203/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMTYvcGFnZXMvcGFnZV8wL2ZpbGVzL0Nva2UlMjAzLnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1964,
+                "width": 2750,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8yMTYvcGFnZXMvcGFnZV8wL2ZpbGVzL0Nva2UlMjAzLnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Coke%203/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

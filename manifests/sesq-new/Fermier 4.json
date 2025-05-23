@@ -1,0 +1,136 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Fermier%204.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Fermier Hall"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Filename"
+        ]
+      },
+      "value": {
+        "en": [
+          "Fermier 4.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coordinates"
+        ]
+      },
+      "value": {
+        "en": [
+          "30.61690371989985, -96.34173760740724"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Fermier Hall"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      " "
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Fermier 4/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "Fermier Hall"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34173760740724,
+            30.61690371989985
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDAvcGFnZXMvcGFnZV8wL2ZpbGVzL0Zlcm1pZXIlMjA0LnRpZg==/full/980,/0/default.jpg",
+      "type": "Image",
+      "height": 666,
+      "width": 980,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDAvcGFnZXMvcGFnZV8wL2ZpbGVzL0Zlcm1pZXIlMjA0LnRpZg==",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Fermier%204/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "image 1"
+        ]
+      },
+      "height": 1331,
+      "width": 1960,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Fermier%204/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDAvcGFnZXMvcGFnZV8wL2ZpbGVzL0Zlcm1pZXIlMjA0LnRpZg==/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 1331,
+                "width": 1960,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zMDAvcGFnZXMvcGFnZV8wL2ZpbGVzL0Zlcm1pZXIlMjA0LnRpZg==",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Fermier%204/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/HEEP%2010.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "HEEP Center"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Filename"
+        ]
+      },
+      "value": {
+        "en": [
+          "HEEP 10.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Coordinates"
+        ]
+      },
+      "value": {
+        "en": [
+          "30.61214815633818, -96.34795644827483"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "HEEP Center"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      " "
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/HEEP 10/notdereferenceable/feature/1",
+        "type": "Feature",
+        "properties": {
+          "label": {
+            "en": [
+              "HEEP Center"
+            ]
+          }
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -96.34795644827483,
+            30.61214815633818
+          ]
+        }
+      }
+    ]
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zOTIvcGFnZXMvcGFnZV8wL2ZpbGVzL0hFRVAlMjAxMC50aWY=/full/975,/0/default.jpg",
+      "type": "Image",
+      "height": 776,
+      "width": 975,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zOTIvcGFnZXMvcGFnZV8wL2ZpbGVzL0hFRVAlMjAxMC50aWY=",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/HEEP%2010/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "image 1"
+        ]
+      },
+      "height": 3103,
+      "width": 3901,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/HEEP%2010/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zOTIvcGFnZXMvcGFnZV8wL2ZpbGVzL0hFRVAlMjAxMC50aWY=/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 3103,
+                "width": 3901,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy8zOTIvcGFnZXMvcGFnZV8wL2ZpbGVzL0hFRVAlMjAxMC50aWY=",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/HEEP%2010/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

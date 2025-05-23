@@ -1,0 +1,105 @@
+{
+  "@context": [
+    "http://iiif.io/api/extension/navplace/context.json",
+    "http://iiif.io/api/presentation/3/context.json"
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Tent%20City%2021.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "Tent Row"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Filename"
+        ]
+      },
+      "value": {
+        "en": [
+          "Tent City 21.tif"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Building Name"
+        ]
+      },
+      "value": {
+        "en": [
+          "Tent Row"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "en": [
+      " "
+    ]
+  },
+  "navPlace": {
+    "type": "FeatureCollection",
+    "features": []
+  },
+  "thumbnail": [
+    {
+      "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83NDIvcGFnZXMvcGFnZV8wL2ZpbGVzL1RlbnQlMjBDaXR5JTIwMjEudGlm/full/972,/0/default.jpg",
+      "type": "Image",
+      "height": 630,
+      "width": 972,
+      "service": [
+        {
+          "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83NDIvcGFnZXMvcGFnZV8wL2ZpbGVzL1RlbnQlMjBDaXR5JTIwMjEudGlm",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "format": "image/jpeg"
+    }
+  ],
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Tent%20City%2021/canvas/1",
+      "type": "Canvas",
+      "label": {
+        "en": [
+          "image 1"
+        ]
+      },
+      "height": 2518,
+      "width": 3889,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Tent%20City%2021/annotation/1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83NDIvcGFnZXMvcGFnZV8wL2ZpbGVzL1RlbnQlMjBDaXR5JTIwMjEudGlm/full/full/0/default.jpg",
+                "type": "Image",
+                "height": 2518,
+                "width": 3889,
+                "service": [
+                  {
+                    "@id": "https://api-pre.library.tamu.edu/iiif/2/aHR0cHM6Ly9hcGktcHJlLmxpYnJhcnkudGFtdS5lZHUvZmNyZXBvL3Jlc3QvYmIvOTcvZjIvM2UvYmI5N2YyM2UtODAzYS00YmQ2LTg0MDYtMDY4MDI2MjM1NTRjL2F1ZHJleS1pbXBvcnRfb2JqZWN0cy83NDIvcGFnZXMvcGFnZV8wL2ZpbGVzL1RlbnQlMjBDaXR5JTIwMjEudGlm",
+                    "@type": "ImageService2",
+                    "profile": "http://iiif.io/api/image/2/level2.json"
+                  }
+                ],
+                "format": "image/jpeg"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/sesq-new/Tent%20City%2021/canvas/1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
