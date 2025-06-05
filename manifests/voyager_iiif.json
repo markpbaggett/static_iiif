@@ -191,6 +191,35 @@
           ]
         }
       ],
+      "annotations": [
+        {
+          "id": "https://example.org/iiif/scene1/page/annotation/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://example.org/iiif/3d/annotations/anno2",
+              "type": "Annotation",
+              "motivation": ["commenting"],
+              "bodyValue": "This is a commenting annotation",
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 1.075,
+                    "y": 1.894,
+                    "z": 0.204
+                  }
+                ]
+              }
+            }
+      ],
       "backgroundColor": "#7c8995"
     }
   ]
