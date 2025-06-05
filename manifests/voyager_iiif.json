@@ -133,6 +133,60 @@
                   }
                 ]
               }
+            },
+            {
+              "id": "https://example.org/iiif/3d/anno3",
+              "type": "Annotation",
+              "motivation": [
+                "painting"
+              ],
+              "body": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://raw.githubusercontent.com/IIIF/3d/main/assets/astronaut/astronaut.glb",
+                    "type": "Model",
+                    "format": "model/gltf-binary"
+                  }
+                ],
+                "transform": [
+                  {
+                    "type": "ScaleTransform",
+                    "x": 0.5,
+                    "y": 0.5,
+                    "z": 0.5
+                  },
+                  {
+                    "type": "RotateTransform",
+                    "x": -7,
+                    "y": -40,
+                    "z": -60.37587528518859
+                  },
+                  {
+                    "type": "TranslateTransform",
+                    "x": 0.9,
+                    "y": -7.169309715976856,
+                    "z": 6
+                  }
+                ]
+              },
+              "target": {
+                "type": "SpecificResource",
+                "source": [
+                  {
+                    "id": "https://example.org/iiif/scene1/page/p1/1",
+                    "type": "Scene"
+                  }
+                ],
+                "selector": [
+                  {
+                    "type": "PointSelector",
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                ]
+              }
             }
           ]
         }
