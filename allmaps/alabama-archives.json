@@ -3,6 +3,163 @@
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "items": [
     {
+      "id": "https://annotations.allmaps.org/maps/7681773f22c151e6",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2025-06-07T23:15:22.110Z",
+      "modified": "2025-06-07T23:15:22.110Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://cdm17217.contentdm.oclc.org/iiif/2/maps:717",
+          "type": "ImageService2",
+          "height": 12420,
+          "width": 10400,
+          "partOf": [
+            {
+              "id": "https://cdm17217.contentdm.oclc.org/iiif/maps:717/canvas/c0",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Fire insurance map of Excel, Alabama."
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://cdm17217.contentdm.oclc.org/iiif/maps:717/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "Fire insurance map of Excel, Alabama."
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"10400\" height=\"12420\"><polygon points=\"0,0 0,12420 10400,12420 10400,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4808,
+                4794
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.3416233,
+                31.4279493
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5562,
+                8858
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.3418613,
+                31.4267768
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7886,
+                4810
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.3410146,
+                31.427918
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5617,
+                4786
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.3414918,
+                31.427941
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2074,
+                9103
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.3423672,
+                31.426787
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/7681773f22c151e6",
+          "version": "https://annotations.allmaps.org/maps/7681773f22c151e6@4d554bdfd12d5f0c",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/5aa2e66683d857dc",
+            "version": "https://annotations.allmaps.org/images/5aa2e66683d857dc@3353d2712710ad5b",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/28395d71a97d5800",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/574f85563e573173"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 43.930413,
+          "area": 66930.55
+        }
+      }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/22497d1f4f2421a7",
       "type": "Annotation",
       "@context": [
