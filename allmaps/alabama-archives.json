@@ -3,6 +3,243 @@
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "items": [
     {
+      "id": "https://annotations.allmaps.org/maps/50d39ff25ceb5919",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2025-06-08T19:50:45.801Z",
+      "modified": "2025-06-08T19:50:45.801Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://cdm17217.contentdm.oclc.org/iiif/2/maps:5030",
+          "type": "ImageService2",
+          "height": 5570,
+          "width": 11217,
+          "partOf": [
+            {
+              "id": "https://cdm17217.contentdm.oclc.org/iiif/maps:5030/canvas/c0",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "1951 Monroe County highway map"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://cdm17217.contentdm.oclc.org/iiif/maps:5030/manifest.json",
+                  "type": "Manifest",
+                  "label": {
+                    "none": [
+                      "1951 Monroe County highway map"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"11217\" height=\"5570\"><polygon points=\"1322,2660 1271,2707 1222,2764 1177,2859 1184,2973 1194,3001 1203,3030 1214,3070 1194,3078 1192,3111 1234,3097 1290,3136 1320,3163 1357,3184 1405,3185 1446,3222 1494,3290 1545,3307 1581,3331 1593,3377 1595,3402 1598,3438 1600,3473 1610,3594 1622,3608 1612,3627 1620,3662 1596,3697 1589,3719 1605,3749 1608,3801 1603,3875 1616,3925 1643,3962 1642,4021 1687,4104 1706,4128 1714,4146 1717,4176 1735,4204 1737,4265 1827,4319 1896,4378 1913,4386 1951,4416 1968,4454 1984,4456 2013,4502 2054,4535 2087,4583 2101,4616 2119,4641 2133,4721 2168,4763 2202,4837 2243,4856 2294,4862 2340,4869 2435,4867 2497,4864 2542,4848 2605,4896 2623,4893 2641,4906 2662,4922 2685,4920 2736,4941 2755,4943 2815,4975 2830,4977 2896,4962 3355,5338 3429,5287 3481,5252 3539,5235 3645,5238 3679,5233 3730,5213 3761,5252 3773,5242 3742,5202 3799,5195 3857,5212 3890,5210 3965,5210 4061,5227 4160,5239 4184,5278 4201,5267 4183,5232 4212,5206 4306,5157 4392,5122 4442,5093 4464,5066 4536,5083 4656,5055 4697,5041 4730,5023 4829,4992 5051,4942 5131,4907 5270,4926 5405,4971 5438,4894 5769,4874 5907,4912 6054,4972 6171,4955 6527,4817 6881,4698 6897,4548 7166,4360 7498,4217 7840,3911 8079,4121 8634,3970 8843,3763 8914,3943 10068,4378 10789,3596 10096,3067 6505,212 6272,223 5530,1102 5251,787 4536,1622 4259,2042 4009,2026 3526,2066 3725,2702 3398,3001 3034,2992 2900,2539 2346,2483 2118,2568 1979,2636 1900,2775 1818,2901 1697,2921 1601,2836 1769,2522 1683,2457 1583,2546 1508,2648 1387,2650\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5186,
+                908
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.5668846,
+                31.6971044
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5546,
+                1204
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.5161922,
+                31.6980162
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                10079,
+                4187
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -86.9051792,
+                31.7533173
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5383,
+                4910
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.2710099,
+                31.4163442
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6411,
+                333
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.5008762,
+                31.8141698
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2830,
+                4969
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.492784,
+                31.2553049
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6295,
+                255
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.5176482,
+                31.8144367
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6504,
+                210
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.5010186,
+                31.8289226
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                10576,
+                3540
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -86.9067731,
+                31.8301981
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1685,
+                2521
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.7626099,
+                31.3643827
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/50d39ff25ceb5919",
+          "version": "https://annotations.allmaps.org/maps/50d39ff25ceb5919@0c41b1d23e1598ef",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/168419e7c41ac418",
+            "version": "https://annotations.allmaps.org/images/168419e7c41ac418@d5ba67c40ae47f31",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/47c9e0f8c7faecbe",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/173dd532cd89a5e9"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 0.093897,
+          "area": 2854486429.73
+        }
+      }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/7681773f22c151e6",
       "type": "Annotation",
       "@context": [
