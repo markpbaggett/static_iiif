@@ -1,0 +1,66 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "A Test of Scifi Radio Settings"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas",
+      "type": "Canvas",
+      "height": 360,
+      "width": 480,
+      "duration": 1777.0,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas/page/annotation1",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/fcrepo/rest/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623554c/last_batch_for_pre_objects/53/pages/page_0/files/c000507_006_014_access.mp3",
+                "type": "Sound",
+                "height": 360,
+                "width": 480,
+                "duration": 1777.0,
+                "format": "audio/mp3"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas/page2",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas/page2/a1",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "id": "https://markpbaggett.github.io/static_iiif/vtts/c000507_006_014_access_turbo.json",
+                "type": "Text",
+                "language": "en",
+                "format": "text/vtt",
+                "label": {
+                  "en": [
+                    "Captions in WebVTT format"
+                  ]
+                }
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/tests/sci-fi-radio/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
