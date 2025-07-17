@@ -1,0 +1,101 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      "James Gunn [Teaching Science Fiction]; Lester Simons [Tolkien Society]; Dean Ing [Author of \"Systemic Shock\"]: Interviews"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "en": [
+          "Creator"
+        ]
+      },
+      "value": {
+        "en": [
+          "Gunn, James E., 1923-2020",
+          "Simons, Lester",
+          "Ing, Dean"
+        ]
+      }
+    },
+    {
+      "label": {
+        "en": [
+          "Contributor"
+        ]
+      },
+      "value": {
+        "en": [
+          "Lane, Daryl",
+          "Vernon, William"
+        ]
+      }
+    }
+  ],
+  "rights": "http://rightsstatements.org/vocab/InC/1.0/",
+  "items": [
+    {
+      "id": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/canvas",
+      "type": "Canvas",
+      "height": 384,
+      "width": 288,
+      "duration": 1703.0,
+      "items": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/canvas/page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/canvas/page/annotation",
+              "type": "Annotation",
+              "motivation": "painting",
+              "body": {
+                "id": "https://api-pre.library.tamu.edu/fcrepo/rest/bb/97/f2/3e/bb97f23e-803a-4bd6-8406-06802623[…]_objects/5/pages/page_0/files/c000507_003_010_access.mp3",
+                "type": "Sound",
+                "height": 384,
+                "width": 288,
+                "duration": 1703.0,
+                "format": "audio/wav"
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/canvas"
+            }
+          ]
+        }
+      ],
+      "annotations": [
+        {
+          "id": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/manifest.json/anno/page/1",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://markpbaggett.github.io/static_iiif/vtts/c000507_003_010_access.caption.vtt",
+              "type": "Annotation",
+              "motivation": "supplementing",
+              "body": {
+                "type": "Choice",
+                "items": [
+                  {
+                    "id": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/Per_voi_signore_Modelli_francesi_it.vtt",
+                    "type": "Text",
+                    "language": "en",
+                    "format": "text/vtt",
+                    "label": {
+                      "en": [
+                        "Captions in English"
+                      ]
+                    }
+                  }
+                ]
+              },
+              "target": "https://markpbaggett.github.io/static_iiif/manifests/ramp/scifi-radio-clean/canvas"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
