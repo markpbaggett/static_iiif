@@ -1,0 +1,277 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "homepage": [
+    {
+      "format": "text/html",
+      "id": "https://archive.org/details/sample2_202510",
+      "label": {
+        "en": [
+          "Item Page on Internet Archive"
+        ]
+      },
+      "type": "Text"
+    }
+  ],
+  "id": "https://markpbaggett.github.io/static_iiif/manifests/tamu/oral-history-snippet.json",
+  "items": [
+    {
+      "accompanyingCanvas": {
+        "height": 200,
+        "id": "https://iiif.archive.org/iiif/sample2_202510/sample2/canvas/accompanying",
+        "items": [
+          {
+            "id": "https://iiif.archive.org/iiif/sample2_202510/sample2/canvas/accompanying/annoPage",
+            "items": [
+              {
+                "body": {
+                  "format": "image/jpeg",
+                  "height": 200,
+                  "id": "https://archive.org/download/sample2_202510/sample2.png",
+                  "type": "Image",
+                  "width": 800
+                },
+                "id": "https://iiif.archive.org/iiif/sample2_202510/sample2/canvas/accompanying/anno",
+                "motivation": "painting",
+                "target": "https://iiif.archive.org/iiif/sample2_202510/sample2/canvas/accompanying",
+                "type": "Annotation"
+              }
+            ],
+            "type": "AnnotationPage"
+          }
+        ],
+        "label": {
+          "en": [
+            "Waveform"
+          ]
+        },
+        "type": "Canvas",
+        "width": 800
+      },
+      "duration": 15.02,
+      "id": "https://iiif.archive.org/iiif/sample2_202510/sample2/canvas",
+      "items": [
+        {
+          "id": "https://iiif.archive.org/iiif/sample2_202510/sample2/page",
+          "items": [
+            {
+              "body": {
+                "items": [
+                  {
+                    "duration": 15.02,
+                    "format": "audio/mp3",
+                    "id": "https://archive.org/download/sample2_202510/sample2.mp3",
+                    "label": {
+                      "none": [
+                        "VBR MP3"
+                      ]
+                    },
+                    "type": "Sound"
+                  }
+                ],
+                "type": "Choice"
+              },
+              "id": "https://iiif.archive.org/iiif/sample2_202510/sample2/annotation",
+              "motivation": "painting",
+              "target": "https://iiif.archive.org/iiif/sample2_202510/sample2/canvas",
+              "type": "Annotation"
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "label": {
+        "none": [
+          "sample2"
+        ]
+      },
+      "seeAlso": [
+        {
+          "format": "image/png",
+          "id": "https://archive.org/download/sample2_202510/sample2_spectrogram.png",
+          "label": {
+            "en": [
+              "Spectrogram"
+            ]
+          },
+          "type": "Image"
+        }
+      ],
+      "type": "Canvas"
+    }
+  ],
+  "label": {
+    "none": [
+      "Oral History Snippet"
+    ]
+  },
+  "metadata": [
+    {
+      "label": {
+        "none": [
+          "identifier"
+        ]
+      },
+      "value": {
+        "none": [
+          "sample2_202510"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "mediatype"
+        ]
+      },
+      "value": {
+        "none": [
+          "audio"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "collection"
+        ]
+      },
+      "value": {
+        "none": [
+          "opensource_audio"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "scanner"
+        ]
+      },
+      "value": {
+        "none": [
+          "Internet Archive HTML5 Uploader 1.7.0"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "subject"
+        ]
+      },
+      "value": {
+        "none": [
+          "oral histories"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "title"
+        ]
+      },
+      "value": {
+        "none": [
+          "Oral History Snippet"
+        ]
+      }
+    },
+    {
+      "label": {
+        "none": [
+          "addeddate"
+        ]
+      },
+      "value": {
+        "none": [
+          "2025-10-14 16:41:22"
+        ]
+      }
+    }
+  ],
+  "partOf": [
+    {
+      "id": "https://iiif.archive.org/iiif/opensource_audio/collection.json",
+      "type": "Collection"
+    }
+  ],
+  "provider": [
+    {
+      "homepage": [
+        {
+          "format": "text/html",
+          "id": "https://archive.org",
+          "label": {
+            "en": [
+              "Internet Archive Homepage"
+            ]
+          },
+          "type": "Text"
+        }
+      ],
+      "id": "https://archive.org",
+      "label": {
+        "en": [
+          "The Internet Archive"
+        ]
+      },
+      "logo": [
+        {
+          "format": "image/png",
+          "height": 79,
+          "id": "https://archive.org/images/glogo.png",
+          "type": "Image",
+          "width": 79
+        }
+      ],
+      "type": "Agent"
+    }
+  ],
+  "rendering": [
+    {
+      "format": "application/x-bittorrent",
+      "id": "https://archive.org/download/sample2_202510/sample2_202510_archive.torrent",
+      "label": {
+        "en": [
+          "Archive BitTorrent"
+        ]
+      },
+      "type": "Dataset"
+    }
+  ],
+  "seeAlso": [
+    {
+      "format": "application/json",
+      "id": "https://archive.org/metadata/sample2_202510",
+      "label": {
+        "en": [
+          "Item Metadata"
+        ]
+      },
+      "type": "Metadata"
+    }
+  ],
+  "summary": {
+    "none": [
+      "This is a quick snippet of an oral history\u00a0"
+    ]
+  },
+  "thumbnail": [
+    {
+      "format": "image/jpeg",
+      "height": 45,
+      "id": "https://iiif.archive.org/image/iiif/2/sample2_202510%2f__ia_thumb.jpg/full/180,/0/default.jpg",
+      "service": [
+        {
+          "@id": "https://iiif.archive.org/image/iiif/2/sample2_202510%2F__ia_thumb.jpg",
+          "@type": "ImageService2",
+          "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+      ],
+      "type": "Image",
+      "width": 180
+    }
+  ],
+  "type": "Manifest"
+}
