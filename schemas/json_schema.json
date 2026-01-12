@@ -301,11 +301,11 @@
             "type": "object",
             "properties": {
                 "id": { "$ref": "#/types/id" },
-                "type": {
+                "type": { 
                     "type": "string",
                     "default": "FeatureCollection"
                 },
-                "features": {
+                "features": { 
                     "type": "array",
                     "items": {
                         "type": "object"
@@ -465,8 +465,8 @@
                         "behavior": { "$ref": "#/classes/behavior" },
                         "partOf": { "$ref": "#/classes/partOf" },
                         "items": {
-                            "type": "array",
-                            "items": {
+                            "type": "array",	
+                            "items": {	
                                 "anyOf": [
                                     { "$ref": "#/classes/manifestRef" },
                                     { "$ref": "#/classes/collectionRef" },
@@ -575,14 +575,14 @@
                         "type": {
                             "type": "string",
                             "pattern": "^Manifest$",
-                            "default": "Manifest"
+                            "default": "Manifest" 
                         },
                         "label": {"$ref": "#/types/lngString" }
                     },
                     "required":["label"]
                 }
-            ]
-        },
+            ]    
+        },    
         "collectionRef": {
             "allOf": [
                 { "$ref": "#/types/reference" },
@@ -597,8 +597,8 @@
                     },
                     "required":["label"]
                 }
-            ]
-        },
+            ]    
+        },  
         "rangeRef": {
             "allOf": [
                 { "$ref": "#/types/reference" },
@@ -611,8 +611,8 @@
                         }
                     }
                 }
-            ]
-        },
+            ]    
+        },  
         "canvasRef": {
             "allOf": [
                 { "$ref": "#/types/reference" },
@@ -625,8 +625,8 @@
                         }
                     }
                 }
-            ]
-        },
+            ]    
+        },  
         "annotationPageRef": {
             "oneOf": [
                 {
@@ -645,10 +645,10 @@
                                 }
                             }
                         }
-                    ]
+                    ]    
                 }
             ]
-        },
+        }, 
         "annotationCollectionRef": {
             "oneOf": [
                 {
@@ -667,7 +667,7 @@
                                 }
                             }
                         }
-                    ]
+                    ]    
                 }
             ]
         },
@@ -981,7 +981,7 @@
                                         "type": "string"
                                     }
                                 }
-                            ]
+                            ]    
                         },
                         "body": {
                             "anyOf": [
@@ -991,7 +991,7 @@
                                 },
                                 {
                                     "type": "object",
-                                    "$ref": "#/classes/choice"
+                                    "$ref": "#/classes/choice" 
                                 },
                                 {
                                     "type": "array",
@@ -1034,22 +1034,22 @@
             "type": "object",
             "properties": {
                 "id": { "$ref": "#/types/id" },
-                "type": {
+                "type": { 
                     "type": "string",
                     "pattern": "^SpecificResource$",
                     "default": "SpecificResource"
                 },
                 "format": { "$ref": "#/types/format" },
                 "accessibility": { "type": "string"},
-                "source": {
+                "source": { 
                     "oneOf": [
                         { "$ref": "#/types/id" },
-                        { "$ref": "#/classes/resource" }
+                        { "$ref": "#/classes/resource" } 
                     ]
                 },
                 "scope": { "$ref": "#/types/id"},
-                "selector": {
-                    "oneOf": [
+                "selector": { 
+                    "oneOf": [    
                         { "$ref": "#/classes/selector" },
                         {
                             "type": "array",
@@ -1073,7 +1073,7 @@
                     "title": "PointSelector",
                     "type": "object",
                     "properties": {
-                        "type": {
+                        "type": { 
                             "type": "string",
                             "pattern": "^PointSelector$",
                             "default": "PointSelector"
@@ -1088,7 +1088,7 @@
                     "title": "FragmentSelector",
                     "type": "object",
                     "properties": {
-                        "type": {
+                        "type": { 
                             "type": "string",
                             "pattern": "^FragmentSelector$",
                             "default": "FragmentSelector"
@@ -1099,7 +1099,7 @@
                             "pattern": "^http.*$",
                             "default": "http://www.w3.org/TR/media-frags/"
                         },
-                        "value": {
+                        "value": { 
                             "type:": "string"
                          }
                     },
@@ -1109,12 +1109,12 @@
                     "title": "SVGSelector",
                     "type": "object",
                     "properties": {
-                        "type": {
+                        "type": { 
                             "type": "string",
                             "pattern": "^SvgSelector$",
                             "default": "SvgSelector"
                         },
-                        "value": {
+                        "value": { 
                             "type:": "string"
                          }
                     },
@@ -1124,7 +1124,7 @@
                     "title": "ImageAPISelector",
                     "type": "object",
                     "properties": {
-                        "type": {
+                        "type": { 
                             "type": "string",
                             "pattern": "^ImageApiSelector$",
                             "default": "ImageApiSelector"
@@ -1151,7 +1151,7 @@
                             "default": "Range"
                         },
                         "rendering": { "$ref": "#/types/external" },
-                        "supplementary": {
+                        "supplementary": { 
                             "oneOf": [
                                 { "$ref": "#/classes/annotationCollection" },
                                 { "$ref": "#/classes/annotationCollectionRef" }
