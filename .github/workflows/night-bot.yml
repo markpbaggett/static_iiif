@@ -24,7 +24,7 @@ jobs:
           curl -o ./allmaps/alabama-archives.json "https://annotations.allmaps.org/maps?imageservicedomain=cdm17217.contentdm.oclc.org&limit=100"
       - name: curl TAMU Maps
         run: |-
-          curl -o ./allmaps/tamu.json "https://annotations.allmaps.org/maps?imageservicedomain=digitalcollections.library.tamu.edu&limit=100"
+          curl -o ./allmaps/tamu.json "https://annotations.allmaps.org/maps?imageservicedomain=digitalcollections.library.tamu.edu&limit=200"
       - name: Commit and push if it changed
         run: |-
           git config user.name "markpbaggett"
