@@ -4,6 +4,161 @@
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "items": [
     {
+      "id": "https://annotations.allmaps.org/maps/e8b06593ec8f1786",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-07-04T18:42:34.905Z",
+      "modified": "2026-07-04T18:42:34.905Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/af2%2Fimage-utf-8-map-cuba-cia-admin-1979-c4c82621-296f-43f4-bc4b-ce565a682b76.jp2",
+          "type": "ImageService2",
+          "height": 8849,
+          "width": 4400,
+          "partOf": [
+            {
+              "id": "https://digitalcollections.library.tamu.edu/do/e4168dc3-23c4-416d-ba30-10e35f91b54f/iiif/canvas/p1",
+              "type": "Canvas",
+              "label": {
+                "en": [
+                  "Cuba, administrative divisions"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://digitalcollections.library.tamu.edu/do/e4168dc3-23c4-416d-ba30-10e35f91b54f/metadata/iiifmanifest/default.jsonld",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Cuba, administrative divisions"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4400\" height=\"8849\"><polygon points=\"2615,958 2380,1112 2066,2103 2030,2499 2157,4272 1774,4672 855,5963 968,7172 911,7681 959,8530 1345,8514 1812,7540 2922,5963 3733,3011 3411,2372\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2233,
+                2326
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -83.15757209962625,
+                21.60444446941638
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2436,
+                1150
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -84.93646964894958,
+                21.8540520253174
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3286,
+                2887
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -82.35266239343234,
+                23.136193796168598
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1254,
+                8393
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -74.13155345533633,
+                20.207214188317366
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/e8b06593ec8f1786",
+          "version": "https://annotations.allmaps.org/maps/e8b06593ec8f1786@5eab4ffdedf54582",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/e85875927b4dd004",
+            "version": "https://annotations.allmaps.org/images/e85875927b4dd004@0b7a0f2c50490787",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/cf0a8da59a1cd504",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/739bf9e4d91b89ae"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 0.006303,
+          "area": 243847055434.25
+        }
+      }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/f40e0ee1c048ebb9",
       "type": "Annotation",
       "@context": [
