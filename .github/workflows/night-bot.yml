@@ -27,7 +27,7 @@ jobs:
           curl -o ./allmaps/tamu.json "https://annotations.allmaps.org/maps?imageservicedomain=digitalcollections.library.tamu.edu&limit=200"
       - name: curl UT Austin Maps
         run: |-
-          curl -o ./allmaps/tamu.json "https://annotations.allmaps.org/maps?imageservicedomain=iiif.lib.utexas.edu&limit=300"
+          curl -o ./allmaps/texas.json "https://annotations.allmaps.org/maps?imageservicedomain=iiif.lib.utexas.edu&limit=300"
       - name: Commit and push if it changed
         run: |-
           git config user.name "markpbaggett"
