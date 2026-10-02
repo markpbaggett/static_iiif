@@ -4,6 +4,2927 @@
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "items": [
     {
+      "id": "https://annotations.allmaps.org/maps/e40bf22883320215",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T13:13:23.842Z",
+      "modified": "2026-10-02T13:13:23.842Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_39a6899f-bbb1-40dc-a50e-89455fa64e14.jp2",
+          "type": "ImageService2",
+          "height": 10311,
+          "width": 8813,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 12].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 12]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_39a6899f-bbb1-40dc-a50e-89455fa64e14/manifests/2/utlmaps_39a6899f-bbb1-40dc-a50e-89455fa64e14.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 12]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8813\" height=\"10311\"><polygon points=\"0,0 0,10311 8813,10311 8813,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8348,
+                3836
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35360692033956,
+                29.756825420790463
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8317,
+                9270
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35481142994296,
+                29.75531378724179
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3050,
+                1138
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35469880293742,
+                29.758599347094687
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                443,
+                9252
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35737392834422,
+                29.756841034863566
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5707,
+                9233
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35563495994403,
+                29.75578996112968
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8389,
+                1186
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35299547152316,
+                29.75759701197082
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8357,
+                6459
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35418788010188,
+                29.75608372980641
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                446,
+                3859
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35617599291888,
+                29.758378503386197
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5723,
+                1141
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35387485836245,
+                29.758125060995454
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                447,
+                1161
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3555683441276,
+                29.759130312732648
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/e40bf22883320215",
+          "version": "https://annotations.allmaps.org/maps/e40bf22883320215@ce61adf4aa7879ab",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/2c257b00e34aeab1",
+            "version": "https://annotations.allmaps.org/images/2c257b00e34aeab1@d18a88fc80b215a2",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/df4fc19d20506d7a",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/adc1e257e47624d8"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 26.270345,
+          "area": 131671.87
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/3c762b8c52702c03",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T13:08:05.777Z",
+      "modified": "2026-10-02T13:08:05.777Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_ab8bf778-7bd0-47b4-9a3c-e79e9eee2d09.jp2",
+          "type": "ImageService2",
+          "height": 10310,
+          "width": 8797,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 4].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 4]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_ab8bf778-7bd0-47b4-9a3c-e79e9eee2d09/manifests/2/utlmaps_ab8bf778-7bd0-47b4-9a3c-e79e9eee2d09.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 4]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8797\" height=\"10310\"><polygon points=\"0,0 0,10310 8797,10310 8797,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3151,
+                1015
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35986386995525,
+                29.761702876181516
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                619,
+                1138
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36068757122793,
+                29.762195902829614
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3137,
+                6441
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36104342694294,
+                29.76022334462188
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8363,
+                6435
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35934048417643,
+                29.759167950319195
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3123,
+                3805
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36045409312744,
+                29.760962180809486
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5738,
+                3796
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35961075445633,
+                29.760462293418556
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5752,
+                9198
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36082670360125,
+                29.758896594268464
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                593,
+                6444
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36186097533941,
+                29.760722573203363
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                606,
+                9210
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3624911190328,
+                29.759926922357817
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5814,
+                950
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3590054956307,
+                29.761189163922126
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5742,
+                6430
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36019727299576,
+                29.759720558086812
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3107,
+                9207
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36166632235161,
+                29.759419698765086
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8476,
+                3812
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35874268581001,
+                29.759925688336097
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                595,
+                3786
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.36130075208655,
+                29.76144099121673
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8350,
+                9189
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35996456016609,
+                29.758382743633245
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8401,
+                1003
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35814037170016,
+                29.760681774447118
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/3c762b8c52702c03",
+          "version": "https://annotations.allmaps.org/maps/3c762b8c52702c03@45b9d09906f74627",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/a5dce295dc494f74",
+            "version": "https://annotations.allmaps.org/images/a5dce295dc494f74@a4432ff5fb3d63c9",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/3527c8bd69a12fb4",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/de50c2b3bc513266"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 26.337542,
+          "area": 130750.32
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/a16cc1ef01e2bdc1",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:57:43.190Z",
+      "modified": "2026-10-02T12:57:43.190Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_87f31841-f8ab-48e8-8403-e2219de4f585.jp2",
+          "type": "ImageService2",
+          "height": 10440,
+          "width": 8920,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1946, Sheet 1210].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1946, Sheet 1210]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_87f31841-f8ab-48e8-8403-e2219de4f585/manifests/2/utlmaps_87f31841-f8ab-48e8-8403-e2219de4f585.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1946, Sheet 1210]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8920\" height=\"10440\"><polygon points=\"0,0 0,10440 8920,10440 8920,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3592,
+                6205
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.261193255897,
+                29.736707451636523
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5087,
+                4212
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.2595953555498,
+                29.735672030155285
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3747,
+                1291
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.257391926278,
+                29.736666124538576
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1847,
+                4022
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.25949830464835,
+                29.737978374105044
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2997,
+                3410
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.25902749957108,
+                29.737168570777214
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6443,
+                1298
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.25733204491262,
+                29.73474230289858
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                683,
+                4586
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.25996394634548,
+                29.738798042340832
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7914,
+                1379
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.25737719423861,
+                29.733748329424866
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2021,
+                8321
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.26289043758717,
+                29.73781565864651
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2811,
+                7237
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.26205822273677,
+                29.737265874638116
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4906,
+                1288
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.2573596994784,
+                29.73583906663272
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1290,
+                1282
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.25741301556124,
+                29.73840622951813
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4419,
+                5168
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.26036036819386,
+                29.736166334894154
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/a16cc1ef01e2bdc1",
+          "version": "https://annotations.allmaps.org/maps/a16cc1ef01e2bdc1@555bdad723a082c6",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/da508310c739eca6",
+            "version": "https://annotations.allmaps.org/images/da508310c739eca6@295b20f6339d5ad6",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/a487caa6a23fb11c",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/e662928b0658989c"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 13.015885,
+          "area": 549690.11
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/c624c6aaa00b349e",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:52:56.075Z",
+      "modified": "2026-10-02T12:52:56.075Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_d5fffd53-c2a5-4cf5-89f9-c7c19e7b5e8d.jp2",
+          "type": "ImageService2",
+          "height": 10313,
+          "width": 8771,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1885, Sheet 6].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1885, Sheet 6]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_d5fffd53-c2a5-4cf5-89f9-c7c19e7b5e8d/manifests/2/utlmaps_d5fffd53-c2a5-4cf5-89f9-c7c19e7b5e8d.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1885, Sheet 6]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8771\" height=\"10313\"><polygon points=\"0,0 0,10313 8771,10313 8771,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7016,
+                1182
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34801521908723,
+                29.77259793925165
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                698,
+                6883
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35044730616885,
+                29.770570103935842
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2879,
+                1147
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34965533445676,
+                29.77256633750754
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2796,
+                6868
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34963349971423,
+                29.770579460087877
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2791,
+                3981
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34965263142222,
+                29.771585472430758
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                612,
+                1169
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35046855674328,
+                29.772556904804485
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4867,
+                6891
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3488109640735,
+                29.77059014147919
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                685,
+                4001
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35048216429266,
+                29.771587430841038
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4868,
+                9753
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34879539757416,
+                29.769597636263597
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6926,
+                3996
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34800556144056,
+                29.771595264514726
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4884,
+                3989
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34882534852638,
+                29.771588736501272
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6942,
+                6864
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3479937126286,
+                29.7705961282455
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4908,
+                1208
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.34883043631146,
+                29.772574569721495
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/c624c6aaa00b349e",
+          "version": "https://annotations.allmaps.org/maps/c624c6aaa00b349e@746161e9272f09dd",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/2c355c5c495efea0",
+            "version": "https://annotations.allmaps.org/images/2c355c5c495efea0@cbaee9e93a6b7b59",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/1b9100617f443161",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/a3a3e15bf8faa712"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 26.147729,
+          "area": 132301.93
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/cf8aa9a6bf93295c",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:45:56.900Z",
+      "modified": "2026-10-02T12:45:56.900Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_0a999325-2508-4001-9cf5-530562ec1e27.jp2",
+          "type": "ImageService2",
+          "height": 10313,
+          "width": 8768,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 67].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 67]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_0a999325-2508-4001-9cf5-530562ec1e27/manifests/2/utlmaps_0a999325-2508-4001-9cf5-530562ec1e27.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 67]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8768\" height=\"10313\"><polygon points=\"135,107 120,10215 4436,10223 4422,1491 4529,1411 4602,1331 4666,1189 4589,1056 4510,942 4427,840 4421,102\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                277,
+                1214
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35215314531392,
+                29.776516254933284
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2338,
+                4176
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3513349119997,
+                29.775523837989425
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4279,
+                1263
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35057246396,
+                29.77653174338856
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4246,
+                9875
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35051673836972,
+                29.773559869388066
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2325,
+                9891
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35131736883913,
+                29.773554876324255
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                287,
+                4197
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35214644443576,
+                29.77551726771532
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2353,
+                6992
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35132601874602,
+                29.77453188557307
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4242,
+                4098
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35057497842989,
+                29.775540920852563
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                291,
+                7065
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35214986142806,
+                29.77452357061598
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2283,
+                1237
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35135913489705,
+                29.776525203473923
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4267,
+                7005
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3505184330832,
+                29.77454269492374
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/cf8aa9a6bf93295c",
+          "version": "https://annotations.allmaps.org/maps/cf8aa9a6bf93295c@c1900621fd16ec30",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/e9d8fc6c7613e9f4",
+            "version": "https://annotations.allmaps.org/images/e9d8fc6c7613e9f4@9ac625cd4395422f",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/2deb6c37d4c61a19",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/5b51818954e52d9c"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 25.967068,
+          "area": 64648.51
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/f42e523d804337c8",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:45:56.900Z",
+      "modified": "2026-10-02T12:45:56.900Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_0a999325-2508-4001-9cf5-530562ec1e27.jp2",
+          "type": "ImageService2",
+          "height": 10313,
+          "width": 8768,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 67].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 67]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_0a999325-2508-4001-9cf5-530562ec1e27/manifests/2/utlmaps_0a999325-2508-4001-9cf5-530562ec1e27.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1896, Sheet 67]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8768\" height=\"10313\"><polygon points=\"8612,10198 8664,100 4420,104 4425,841 4511,942 4589,1054 4665,1185 4602,1333 4528,1413 4422,1490 4439,10215\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4532,
+                4635
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35217881332787,
+                29.778338479874577
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8438,
+                4629
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35054090759553,
+                29.77832512163667
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6448,
+                4592
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35136339396777,
+                29.778358021202877
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4569,
+                9887
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35214979150452,
+                29.776520633492357
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8425,
+                9982
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35048889990196,
+                29.776536024264477
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6522,
+                9923
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.35136367541281,
+                29.7765231985822
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/f42e523d804337c8",
+          "version": "https://annotations.allmaps.org/maps/f42e523d804337c8@5ae2f4d64c15298a",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/e9d8fc6c7613e9f4",
+            "version": "https://annotations.allmaps.org/images/e9d8fc6c7613e9f4@9ac625cd4395422f",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/2deb6c37d4c61a19",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/5b51818954e52d9c"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 25.358012,
+          "area": 65989.67
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/e1bd2da8b2644f43",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:30:50.259Z",
+      "modified": "2026-10-02T12:30:50.259Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_578b2240-f76c-45e4-b801-85eccd2c3d6f.jp2",
+          "type": "ImageService2",
+          "height": 10424,
+          "width": 8960,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 26].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 26]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_578b2240-f76c-45e4-b801-85eccd2c3d6f/manifests/2/utlmaps_578b2240-f76c-45e4-b801-85eccd2c3d6f.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 26]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8960\" height=\"10424\"><polygon points=\"0,0 0,10424 8960,10424 8960,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3188,
+                9587
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78699046403216,
+                29.292750107532967
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3180,
+                6603
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78584637239425,
+                29.293050233405268
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7384,
+                9636
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78647567793708,
+                29.29138239985703
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3175,
+                3572
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78470229620713,
+                29.293357142670175
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4581,
+                3553
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78451963316814,
+                29.29292262982342
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                612,
+                3575
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78499747971081,
+                29.294228001533057
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                600,
+                9614
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78728196038345,
+                29.293615394615642
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                601,
+                6613
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78614035265225,
+                29.29392249492595
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                604,
+                633
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78385938322504,
+                29.29452308720525
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3239,
+                670
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.78355245982941,
+                29.29367361597197
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/e1bd2da8b2644f43",
+          "version": "https://annotations.allmaps.org/maps/e1bd2da8b2644f43@e1524aca8a261aec",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/76f18489f0f5b8bb",
+            "version": "https://annotations.allmaps.org/images/76f18489f0f5b8bb@4f2a5c562307bf11",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/c21570d15f9611d2",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/461f7728f21b59ff"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 25.973017,
+          "area": 138451.49
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/3e68e8462607aa37",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:23:25.913Z",
+      "modified": "2026-10-02T12:23:25.913Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_ac6f8289-359b-457d-b5d4-dcd2076f96c2.jp2",
+          "type": "ImageService2",
+          "height": 10288,
+          "width": 8872,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 90].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 90]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_ac6f8289-359b-457d-b5d4-dcd2076f96c2/manifests/2/utlmaps_ac6f8289-359b-457d-b5d4-dcd2076f96c2.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 90]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8872\" height=\"10288\"><polygon points=\"0,0 0,10288 8872,10288 8872,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4085,
+                2093
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.10304862991102,
+                30.09355794449381
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1109,
+                9506
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.10424918221536,
+                30.09099571666063
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4103,
+                695
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.10303361527741,
+                30.09406352015129
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3889,
+                5144
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.10308952026858,
+                30.092516527620987
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1153,
+                5256
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1042192778513,
+                30.092477651041662
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1231,
+                660
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.10418625287633,
+                30.094082357220525
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3943,
+                9462
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.10310215365043,
+                30.091007804504386
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/3e68e8462607aa37",
+          "version": "https://annotations.allmaps.org/maps/3e68e8462607aa37@5c75796cf913fc0b",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/e34f0255075d3d6e",
+            "version": "https://annotations.allmaps.org/images/e34f0255075d3d6e@bca02aa1481b52ec",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/60785d9b1ab90448",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/dc1131c2b76be299"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 25.77896,
+          "area": 137347.79
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/a410106c42cc4e2f",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:19:38.252Z",
+      "modified": "2026-10-02T12:19:38.252Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_19b617db-b2d2-4697-a7db-d4cb7829a8a7.jp2",
+          "type": "ImageService2",
+          "height": 10288,
+          "width": 8872,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 68].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 68]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_19b617db-b2d2-4697-a7db-d4cb7829a8a7/manifests/2/utlmaps_19b617db-b2d2-4697-a7db-d4cb7829a8a7.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 68]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8872\" height=\"10288\"><polygon points=\"0,0 0,10288 8872,10288 8872,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4445,
+                9887
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11453056570927,
+                30.083910859993154
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7495,
+                339
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11069791247026,
+                30.08291534348223
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1569,
+                3095
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11189553731133,
+                30.084923065370262
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1608,
+                320
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1108008999824,
+                30.084941234805243
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4423,
+                6975
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11339507595531,
+                30.08392649917522
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4488,
+                4030
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11223327137125,
+                30.08393510169991
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4628,
+                212
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11068287762154,
+                30.08392206629253
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4594,
+                3103
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11187198237998,
+                30.083897655691302
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7138,
+                3876
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11213975332028,
+                30.08298504424903
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1604,
+                9750
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11454856879327,
+                30.084893817951055
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1555,
+                6968
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11341141144425,
+                30.084910800662062
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7408,
+                3106
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11182727940452,
+                30.082923421255202
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7103,
+                9698
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1145131069745,
+                30.082980321046804
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7115,
+                6922
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1133668681449,
+                30.083002330810263
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/a410106c42cc4e2f",
+          "version": "https://annotations.allmaps.org/maps/a410106c42cc4e2f@93434b25c9a12e05",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/074e2b1665012fa9",
+            "version": "https://annotations.allmaps.org/images/074e2b1665012fa9@673c96d9dda0393a",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/0a96e7b4719d4fb3",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/e466480e1593eaaa"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 26.022083,
+          "area": 134793.32
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/406d4f4015521aad",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T12:12:49.438Z",
+      "modified": "2026-10-02T12:12:49.438Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_88f3574e-45db-4160-abcb-a3e51d9c04a0.jp2",
+          "type": "ImageService2",
+          "height": 10288,
+          "width": 8872,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 67].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 67]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_88f3574e-45db-4160-abcb-a3e51d9c04a0/manifests/2/utlmaps_88f3574e-45db-4160-abcb-a3e51d9c04a0.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Beaumont, Texas, 1941, Sheet 67]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8872\" height=\"10288\"><polygon points=\"0,0 0,10288 8872,10288 8872,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7200,
+                6997
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11341306938004,
+                30.084907546643
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7235,
+                4548
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11243863673624,
+                30.08492684507854
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4347,
+                3826
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11221561578168,
+                30.08593696018602
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1443,
+                4973
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1126362957488,
+                30.086941700811895
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4347,
+                9803
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11458684618214,
+                30.085899415810815
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1402,
+                6981
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11346430747524,
+                30.08692091383
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4328,
+                4704
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1125495237956,
+                30.085936198644337
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4348,
+                319
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1108250692897,
+                30.08596553256531
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1455,
+                376
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11083909605097,
+                30.086977303702223
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4311,
+                7019
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1134506162515,
+                30.085917772306303
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7252,
+                314
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.1108062362462,
+                30.08493542797977
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7240,
+                9821
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11454831629004,
+                30.084896317045278
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1455,
+                9803
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11460624227584,
+                30.08690162048568
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1447,
+                4029
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.11230514458835,
+                30.086941691457724
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/406d4f4015521aad",
+          "version": "https://annotations.allmaps.org/maps/406d4f4015521aad@79918e647066736f",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/86953ae325ec38b4",
+            "version": "https://annotations.allmaps.org/images/86953ae325ec38b4@f2c7db35b5343449",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/a8f42468d97aa34f",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/38c081155742f432"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 26.033935,
+          "area": 134670.62
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/d865bed75e86cc8e",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-02T04:22:22.444Z",
+      "modified": "2026-10-02T04:22:22.444Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_b37a7cbe-c1aa-4ac9-9405-8a231b6268a5.jp2",
+          "type": "ImageService2",
+          "height": 7899,
+          "width": 8962,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Northern Honshu, 1:50,000. Series A.M.S. L773 [Itoigawa, Sheet 5658 II].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Northern Honshu, 1:50,000. Series A.M.S. L773 [Itoigawa, Sheet 5658 II]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_b37a7cbe-c1aa-4ac9-9405-8a231b6268a5/manifests/2/utlmaps_b37a7cbe-c1aa-4ac9-9405-8a231b6268a5.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Northern Honshu, 1:50,000. Series A.M.S. L773 [Itoigawa, Sheet 5658 II]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8962\" height=\"7899\"><polygon points=\"0,0 0,7899 8962,7899 8962,0\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3244,
+                4909
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                137.8300055949614,
+                37.039162139433
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4973,
+                5260
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                137.89032646784824,
+                37.0184373790115
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2120,
+                5395
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                137.79015244299745,
+                37.02334840154512
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7375,
+                2732
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                137.97959724883498,
+                37.10042351101751
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2053,
+                5701
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                137.78797002366036,
+                37.014686080822955
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4756,
+                4387
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                137.88403209366174,
+                37.05203153804662
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/d865bed75e86cc8e",
+          "version": "https://annotations.allmaps.org/maps/d865bed75e86cc8e@6d38c2f85687b0bc",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/a396da98dc95b23f",
+            "version": "https://annotations.allmaps.org/images/a396da98dc95b23f@dd838b60adcc78d4",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/a6a1293ff379b69d",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/7e3ebaef861071a3"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 0.282389,
+          "area": 887730317.09
+        }
+      }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/aeeea322d81f070c",
       "type": "Annotation",
       "@context": [
@@ -20323,6 +23244,145 @@
       }
     },
     {
+      "id": "https://annotations.allmaps.org/maps/1e318a34b92fa8d0",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-09-27T22:23:51.639Z",
+      "modified": "2026-09-27T22:23:51.639Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_b7003336-8f31-4fab-9986-8f7379fb7ea8.jp2",
+          "type": "ImageService2",
+          "height": 10298,
+          "width": 8719,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Denton, Texas, 1912, Sheet 23].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Denton, Texas, 1912, Sheet 23]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_b7003336-8f31-4fab-9986-8f7379fb7ea8/manifests/2/utlmaps_b7003336-8f31-4fab-9986-8f7379fb7ea8.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Denton, Texas, 1912, Sheet 23]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8719\" height=\"10298\"><polygon points=\"6818,2555 6763,10197 8577,10198 8604,2569\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8208,
+                5408
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -97.12697566641175,
+                33.223176133133194
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6980,
+                8181
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -97.12731462778248,
+                33.22258099640638
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6995,
+                5415
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -97.12730967497491,
+                33.22317767148961
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/1e318a34b92fa8d0",
+          "version": "https://annotations.allmaps.org/maps/1e318a34b92fa8d0@e844233cdfa130ba",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/e960e9af58886caa",
+            "version": "https://annotations.allmaps.org/images/e960e9af58886caa@44af0de8a8c1152f",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/71e2106c689be47a",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/adf7e60d85359f41"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 40.351804,
+          "area": 8441
+        }
+      }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/9583c7162cfcb36b",
       "type": "Annotation",
       "@context": [
@@ -20522,145 +23582,6 @@
           },
           "scale": 26.465069,
           "area": 102744.7
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/1e318a34b92fa8d0",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-27T22:23:51.639Z",
-      "modified": "2026-09-27T22:23:51.639Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_b7003336-8f31-4fab-9986-8f7379fb7ea8.jp2",
-          "type": "ImageService2",
-          "height": 10298,
-          "width": 8719,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Denton, Texas, 1912, Sheet 23].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [Denton, Texas, 1912, Sheet 23]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_b7003336-8f31-4fab-9986-8f7379fb7ea8/manifests/2/utlmaps_b7003336-8f31-4fab-9986-8f7379fb7ea8.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [Denton, Texas, 1912, Sheet 23]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8719\" height=\"10298\"><polygon points=\"6818,2555 6763,10197 8577,10198 8604,2569\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8208,
-                5408
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -97.12697566641175,
-                33.223176133133194
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6980,
-                8181
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -97.12731462778248,
-                33.22258099640638
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6995,
-                5415
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -97.12730967497491,
-                33.22317767148961
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/1e318a34b92fa8d0",
-          "version": "https://annotations.allmaps.org/maps/1e318a34b92fa8d0@e844233cdfa130ba",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/e960e9af58886caa",
-            "version": "https://annotations.allmaps.org/images/e960e9af58886caa@44af0de8a8c1152f",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/71e2106c689be47a",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/adf7e60d85359f41"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 40.351804,
-          "area": 8441
         }
       }
     },
@@ -33589,161 +36510,6 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/b2dbfe76905c3b2d",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-26T17:23:25.263Z",
-      "modified": "2026-09-26T17:23:25.263Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_d210c411-0091-4b42-82b1-514d65513958.jp2",
-          "type": "ImageService2",
-          "height": 10560,
-          "width": 8984,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1950, Sheet 1622].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [Houston, Texas, 1950, Sheet 1622]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_d210c411-0091-4b42-82b1-514d65513958/manifests/2/utlmaps_d210c411-0091-4b42-82b1-514d65513958.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [Houston, Texas, 1950, Sheet 1622]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8984\" height=\"10560\"><polygon points=\"8762,232 3898,230 3898,1037 4002,1095 4068,1147 4086,1193 3976,1258 3939,1378 3985,1557 4132,1948 4130,2077 3983,1977 3907,2002 5392,2784 8776,2805\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7705,
-                560
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -95.30725716031291,
-                29.69868187523764
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4239,
-                1636
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -95.31015407508563,
-                29.69876674873768
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4243,
-                542
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -95.30986458243297,
-                29.69950477628144
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7875,
-                1632
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -95.3074061599146,
-                29.69790940421461
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/b2dbfe76905c3b2d",
-          "version": "https://annotations.allmaps.org/maps/b2dbfe76905c3b2d@5a282ce077c9ab20",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/f72f0f997c4833b4",
-            "version": "https://annotations.allmaps.org/images/f72f0f997c4833b4@feb9240c7d2b1639",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/1c7b6e7508a8f11e",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/d0714c92ab5a4f5e"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 12.741993,
-          "area": 72429.98
-        }
-      }
-    },
-    {
       "id": "https://annotations.allmaps.org/maps/b28e3090777974cf",
       "type": "Annotation",
       "@context": [
@@ -34087,6 +36853,161 @@
           },
           "scale": 13.083585,
           "area": 443379.64
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/b2dbfe76905c3b2d",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-09-26T17:23:25.263Z",
+      "modified": "2026-09-26T17:23:25.263Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_d210c411-0091-4b42-82b1-514d65513958.jp2",
+          "type": "ImageService2",
+          "height": 10560,
+          "width": 8984,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Houston, Texas, 1950, Sheet 1622].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Houston, Texas, 1950, Sheet 1622]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_d210c411-0091-4b42-82b1-514d65513958/manifests/2/utlmaps_d210c411-0091-4b42-82b1-514d65513958.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Houston, Texas, 1950, Sheet 1622]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8984\" height=\"10560\"><polygon points=\"8762,232 3898,230 3898,1037 4002,1095 4068,1147 4086,1193 3976,1258 3939,1378 3985,1557 4132,1948 4130,2077 3983,1977 3907,2002 5392,2784 8776,2805\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7705,
+                560
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.30725716031291,
+                29.69868187523764
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4239,
+                1636
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.31015407508563,
+                29.69876674873768
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4243,
+                542
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.30986458243297,
+                29.69950477628144
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7875,
+                1632
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -95.3074061599146,
+                29.69790940421461
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/b2dbfe76905c3b2d",
+          "version": "https://annotations.allmaps.org/maps/b2dbfe76905c3b2d@5a282ce077c9ab20",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/f72f0f997c4833b4",
+            "version": "https://annotations.allmaps.org/images/f72f0f997c4833b4@feb9240c7d2b1639",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/1c7b6e7508a8f11e",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/d0714c92ab5a4f5e"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 12.741993,
+          "area": 72429.98
         }
       }
     },
@@ -36195,161 +39116,6 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/6e33ea7f630155c7",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-25T21:32:28.031Z",
-      "modified": "2026-09-25T21:32:28.031Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_2452cf8c-51c4-4895-be71-588167decc5c.jp2",
-          "type": "ImageService2",
-          "height": 10496,
-          "width": 8984,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 114].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 114]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_2452cf8c-51c4-4895-be71-588167decc5c/manifests/2/utlmaps_2452cf8c-51c4-4895-be71-588167decc5c.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 114]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8984\" height=\"10496\"><polygon points=\"8846,10369 8832,5506 5366,5478 5370,4891 5327,4879 4864,5364 4843,5479 4450,5474 4405,10376\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7970,
-                6519
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -94.82886239878435,
-                29.28398925789921
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7961,
-                7693
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -94.82860133005642,
-                29.283210423047972
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6082,
-                7686
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -94.83003989166735,
-                29.282833294205087
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6104,
-                6513
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -94.83028804610242,
-                29.28361305168869
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/6e33ea7f630155c7",
-          "version": "https://annotations.allmaps.org/maps/6e33ea7f630155c7@c325d8745a3bac45",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/ea23697bd601eb9a",
-            "version": "https://annotations.allmaps.org/images/ea23697bd601eb9a@d033a34ca5b5efd2",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/46edb1ec31ba6ada",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/8f41ae86eb02fc83"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 12.974772,
-          "area": 129107.49
-        }
-      }
-    },
-    {
       "id": "https://annotations.allmaps.org/maps/38f769c6147da1b9",
       "type": "Annotation",
       "@context": [
@@ -36965,6 +39731,161 @@
           },
           "scale": 13.00335,
           "area": 390663.28
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/6e33ea7f630155c7",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-09-25T21:32:28.031Z",
+      "modified": "2026-09-25T21:32:28.031Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_2452cf8c-51c4-4895-be71-588167decc5c.jp2",
+          "type": "ImageService2",
+          "height": 10496,
+          "width": 8984,
+          "partOf": [
+            {
+              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 114].json",
+              "type": "Canvas",
+              "label": {
+                "none": [
+                  "Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 114]"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_2452cf8c-51c4-4895-be71-588167decc5c/manifests/2/utlmaps_2452cf8c-51c4-4895-be71-588167decc5c.json",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "Sanborn Fire Insurance Maps [Galveston , Texas, 1947, Sheet 114]"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "University of Texas Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://lib.utexas.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8984\" height=\"10496\"><polygon points=\"8846,10369 8832,5506 5366,5478 5370,4891 5327,4879 4864,5364 4843,5479 4450,5474 4405,10376\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7970,
+                6519
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.82886239878435,
+                29.28398925789921
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7961,
+                7693
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.82860133005642,
+                29.283210423047972
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6082,
+                7686
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.83003989166735,
+                29.282833294205087
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6104,
+                6513
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -94.83028804610242,
+                29.28361305168869
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/6e33ea7f630155c7",
+          "version": "https://annotations.allmaps.org/maps/6e33ea7f630155c7@c325d8745a3bac45",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/ea23697bd601eb9a",
+            "version": "https://annotations.allmaps.org/images/ea23697bd601eb9a@d033a34ca5b5efd2",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/46edb1ec31ba6ada",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/8f41ae86eb02fc83"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 12.974772,
+          "area": 129107.49
         }
       }
     },
@@ -43184,1919 +46105,6 @@
           },
           "scale": 25.916272,
           "area": 129553.82
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/1255c7f81f9184c3",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:30:26.898Z",
-      "modified": "2026-09-24T20:30:26.898Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_97a6a67c-6d49-42ae-8d33-6de1b2bca7ee.jp2",
-          "type": "ImageService2",
-          "height": 10159,
-          "width": 8594,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 13].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 13]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_97a6a67c-6d49-42ae-8d33-6de1b2bca7ee/manifests/2/utlmaps_97a6a67c-6d49-42ae-8d33-6de1b2bca7ee.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 13]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8594\" height=\"10159\"><polygon points=\"0,0 0,10159 8594,10159 8594,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7344,
-                3246
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48985951343697,
-                29.424171146367758
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7441,
-                5283
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48905159881313,
-                29.424016050322592
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7573,
-                9887
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48727744379993,
-                29.42362074472906
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5266,
-                4987
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48933172570328,
-                29.423305598298867
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5304,
-                3215
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49006960887975,
-                29.42350016486556
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/1255c7f81f9184c3",
-          "version": "https://annotations.allmaps.org/maps/1255c7f81f9184c3@12332fab4ad46ba1",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/87dad38ed3a34857",
-            "version": "https://annotations.allmaps.org/images/87dad38ed3a34857@226c0b86344c52a7",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/669660c12155594b",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/7b3e221b9bfa2f34"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.958625,
-          "area": 129563.58
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/b0c5e2e34ee9925b",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:28:47.424Z",
-      "modified": "2026-09-24T20:28:47.424Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_36ad4ae1-4015-4946-b6e7-4c5a55146bdf.jp2",
-          "type": "ImageService2",
-          "height": 10195,
-          "width": 8835,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 13].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 13]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_36ad4ae1-4015-4946-b6e7-4c5a55146bdf/manifests/2/utlmaps_36ad4ae1-4015-4946-b6e7-4c5a55146bdf.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 13]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8835\" height=\"10195\"><polygon points=\"0,0 0,10195 8835,10195 8835,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7668,
-                5310
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48905354854186,
-                29.424010831313154
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5581,
-                3301
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49007376686947,
-                29.423498152432884
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5525,
-                5043
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48933731213346,
-                29.423309564427242
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7786,
-                9890
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48727622122301,
-                29.423621840680436
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5699,
-                9906
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.48739333025175,
-                29.42289593542347
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/b0c5e2e34ee9925b",
-          "version": "https://annotations.allmaps.org/maps/b0c5e2e34ee9925b@09f2606bb73a5cf7",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/512152edd63e54c5",
-            "version": "https://annotations.allmaps.org/images/512152edd63e54c5@e74c6586bc2ba174",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/3b5bba6f83beb9d5",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/a42869ad4fee5543"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.437818,
-          "area": 139198.35
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/3949faff85c57560",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:26:11.554Z",
-      "modified": "2026-09-24T20:26:11.554Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_40e55e81-d72d-44cd-82ed-db47dddd0212.jp2",
-          "type": "ImageService2",
-          "height": 10172,
-          "width": 8557,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 12].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 12]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_40e55e81-d72d-44cd-82ed-db47dddd0212/manifests/2/utlmaps_40e55e81-d72d-44cd-82ed-db47dddd0212.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 12]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8557\" height=\"10172\"><polygon points=\"0,0 0,10172 8557,10172 8557,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4830,
-                4043
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49318123408503,
-                29.426467605844906
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                743,
-                5553
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49306288277518,
-                29.42491100583628
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4213,
-                9032
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49134440612438,
-                29.42586310907474
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5925,
-                8629
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.4913426674257,
-                29.42646279685755
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4580,
-                2628
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49375207782185,
-                29.426460250659687
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/3949faff85c57560",
-          "version": "https://annotations.allmaps.org/maps/3949faff85c57560@745e28c4f3551451",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/b946ae27c6951676",
-            "version": "https://annotations.allmaps.org/images/b946ae27c6951676@98ab9e673154b2f3",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/c2d3a2a5b754abee",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/f55dae6995d1686f"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.770735,
-          "area": 131061.24
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/ca44e9ae709870e2",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:24:44.318Z",
-      "modified": "2026-09-24T20:24:44.318Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_86ebaa80-d550-4c75-88de-34037bb80353.jp2",
-          "type": "ImageService2",
-          "height": 10150,
-          "width": 8985,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 12].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 12]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_86ebaa80-d550-4c75-88de-34037bb80353/manifests/2/utlmaps_86ebaa80-d550-4c75-88de-34037bb80353.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 12]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8985\" height=\"10150\"><polygon points=\"0,0 0,10150 8985,10150 8985,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                974,
-                5550
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.4930632369324,
-                29.424911102060676
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                820,
-                1607
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49460128243331,
-                29.42518351133506
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5015,
-                4042
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49318079410997,
-                29.426461851138143
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4440,
-                8949
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49134342234677,
-                29.425864593778822
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6107,
-                8525
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49134060356913,
-                29.426468563953108
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/ca44e9ae709870e2",
-          "version": "https://annotations.allmaps.org/maps/ca44e9ae709870e2@fba93c05a7fa1271",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/94414aa84b410a45",
-            "version": "https://annotations.allmaps.org/images/94414aa84b410a45@7373f6b726d81fd5",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/1670dd48666bdf19",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/b8d45e6b1533962f"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.312023,
-          "area": 142341.13
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/12dc398aa7b9bf0f",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:22:35.418Z",
-      "modified": "2026-09-24T20:22:35.418Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_c00d0c89-15a7-4997-af18-7c5e57499ebf.jp2",
-          "type": "ImageService2",
-          "height": 10195,
-          "width": 8835,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 11].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 11]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_c00d0c89-15a7-4997-af18-7c5e57499ebf/manifests/2/utlmaps_c00d0c89-15a7-4997-af18-7c5e57499ebf.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 11]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8835\" height=\"10195\"><polygon points=\"0,0 0,10195 8835,10195 8835,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8077,
-                8270
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49147876014283,
-                29.424524916286714
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8330,
-                2164
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49378445811921,
-                29.42506718439536
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5086,
-                4458
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49325813142931,
-                29.423823496350774
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                975,
-                771
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49505670939335,
-                29.422734079822376
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8242,
-                37
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49461457969016,
-                29.42517470273127
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/12dc398aa7b9bf0f",
-          "version": "https://annotations.allmaps.org/maps/12dc398aa7b9bf0f@519d8e5bf0400038",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/7c30d9502c30ee5a",
-            "version": "https://annotations.allmaps.org/images/7c30d9502c30ee5a@efa9c07845120ce2",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/5677cae26ae6deed",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/114f6745e4847fab"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 26.428574,
-          "area": 128957.41
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/9cbc5058a2817954",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:19:10.495Z",
-      "modified": "2026-09-24T20:19:10.495Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_8971e107-a120-40bc-b997-00b32af7f393.jp2",
-          "type": "ImageService2",
-          "height": 10152,
-          "width": 8552,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 11].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 11]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_8971e107-a120-40bc-b997-00b32af7f393/manifests/2/utlmaps_8971e107-a120-40bc-b997-00b32af7f393.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 11]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8552\" height=\"10152\"><polygon points=\"0,0 0,10152 8552,10152 8552,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7743,
-                8243
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49147996042979,
-                29.42453504488057
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                -105,
-                4781
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49351323786362,
-                29.422126456637738
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                747,
-                741
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49505534113445,
-                29.422741090349916
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4825,
-                4475
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49324836311575,
-                29.423821816349474
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7999,
-                2159
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.4937859417773,
-                29.42505852627623
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/9cbc5058a2817954",
-          "version": "https://annotations.allmaps.org/maps/9cbc5058a2817954@22e41d1ce39bb845",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/504f8ae101052df1",
-            "version": "https://annotations.allmaps.org/images/504f8ae101052df1@74aa2312fdc6c66e",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/3172daf65fa4fde3",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/8290f3364e46e926"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.96643,
-          "area": 128764.1
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/99f6a52badd2613d",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:15:28.933Z",
-      "modified": "2026-09-24T20:15:28.933Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_d2095284-bce9-478a-a163-ab6e7297e4e9.jp2",
-          "type": "ImageService2",
-          "height": 10152,
-          "width": 8497,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 10].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 10]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_d2095284-bce9-478a-a163-ab6e7297e4e9/manifests/2/utlmaps_d2095284-bce9-478a-a163-ab6e7297e4e9.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896, Sheet 10]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8497\" height=\"10152\"><polygon points=\"0,0 0,10152 8497,10152 8497,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4897,
-                4512
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49601982152862,
-                29.426458693676043
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4645,
-                1330
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49727378536846,
-                29.426413366225315
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7482,
-                8484
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49446762980162,
-                29.427394711854195
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7570,
-                1348
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49719997891012,
-                29.42743467563676
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                988,
-                8267
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.4945993078491,
-                29.425177022099245
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                983,
-                5148
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49581244726684,
-                29.42514057180574
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/99f6a52badd2613d",
-          "version": "https://annotations.allmaps.org/maps/99f6a52badd2613d@9bca72e0d87870d1",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/89a5dbf726af6d53",
-            "version": "https://annotations.allmaps.org/images/89a5dbf726af6d53@968f0ed07703f7d3",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/4f06297b589c5815",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/fdc2aaf2f1d581bf"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 26.407379,
-          "area": 123699.12
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/634f568871d7bd9a",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:14:11.685Z",
-      "modified": "2026-09-24T20:14:11.685Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_9ff25167-021f-418c-a5b9-a5a99c171c2f.jp2",
-          "type": "ImageService2",
-          "height": 10150,
-          "width": 8985,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 10].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 10]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_9ff25167-021f-418c-a5b9-a5a99c171c2f/manifests/2/utlmaps_9ff25167-021f-418c-a5b9-a5a99c171c2f.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 10]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8985\" height=\"10150\"><polygon points=\"0,0 0,10150 8985,10150 8985,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4943,
-                1426
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49727723104752,
-                29.426404877927137
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7738,
-                8484
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49446659614371,
-                29.42738759171003
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5118,
-                4575
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49602271321181,
-                29.426458491750054
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7802,
-                3929
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49621500761899,
-                29.427418268992785
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1242,
-                5178
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49579989773322,
-                29.42514411458636
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1356,
-                1243
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49736974955817,
-                29.425185147680477
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/634f568871d7bd9a",
-          "version": "https://annotations.allmaps.org/maps/634f568871d7bd9a@1f54b7463321b04b",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/74ebd891cfb27667",
-            "version": "https://annotations.allmaps.org/images/74ebd891cfb27667@4cd27bcd5b1a480d",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/93f0a1cfe4e162b8",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/9c695113b5d3eb8f"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 26.145293,
-          "area": 133412.68
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/41e9d9bd56ff56c7",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:11:58.837Z",
-      "modified": "2026-09-24T20:11:58.837Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_96d2cbba-e08a-4ee4-8ee9-9adf8241582f.jp2",
-          "type": "ImageService2",
-          "height": 10195,
-          "width": 9313,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 09].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 09]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_96d2cbba-e08a-4ee4-8ee9-9adf8241582f/manifests/2/utlmaps_96d2cbba-e08a-4ee4-8ee9-9adf8241582f.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 09]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"9313\" height=\"10195\"><polygon points=\"0,0 0,10195 9313,10195 9313,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8803,
-                9157
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49460059923001,
-                29.42516586849619
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6139,
-                1937
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.4974586330766,
-                29.42424806148721
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5802,
-                9107
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49464707399851,
-                29.424095408530604
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8762,
-                6469
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49569278949654,
-                29.425146753268905
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5862,
-                6352
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49569533639627,
-                29.424122394987407
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/41e9d9bd56ff56c7",
-          "version": "https://annotations.allmaps.org/maps/41e9d9bd56ff56c7@e22d02b385286c97",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/83d8c6d2a1f5b14a",
-            "version": "https://annotations.allmaps.org/images/83d8c6d2a1f5b14a@9aa59bec2b829058",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/6c30bbff48e0606b",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/9ef956f3ce7d849a"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.791197,
-          "area": 142736.11
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/fb4719059bffac12",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:09:02.110Z",
-      "modified": "2026-09-24T20:09:02.110Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_3c62413a-2e39-42ea-8b50-69fd1a24336a.jp2",
-          "type": "ImageService2",
-          "height": 10150,
-          "width": 8985,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 08].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 08]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_3c62413a-2e39-42ea-8b50-69fd1a24336a/manifests/2/utlmaps_3c62413a-2e39-42ea-8b50-69fd1a24336a.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 08]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"8985\" height=\"10150\"><polygon points=\"0,0 0,10150 8985,10150 8985,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                676,
-                6593
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.50007762865216,
-                29.42657500821549
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5713,
-                9108
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49818419633999,
-                29.425478064393843
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5716,
-                3588
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49790309362322,
-                29.427456207487197
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7676,
-                6369
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49726966659617,
-                29.426408612117314
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5713,
-                6553
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.49805193742297,
-                29.42638207052981
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/fb4719059bffac12",
-          "version": "https://annotations.allmaps.org/maps/fb4719059bffac12@8bf9345bccd4bcfc",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/919d22ff1a150364",
-            "version": "https://annotations.allmaps.org/images/919d22ff1a150364@f6c1a837037afdcf",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/1523873ed1b0d12b",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/97ef604ae73c4f96"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 25.295641,
-          "area": 142525.55
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/2cfbf10e75f683e3",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-24T20:07:35.263Z",
-      "modified": "2026-09-24T20:07:35.263Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://iiif.lib.utexas.edu/iiif/2/utldams_utlmaps_cd280006-67e2-4bc3-b8bd-dc1a13b87fe7.jp2",
-          "type": "ImageService2",
-          "height": 10195,
-          "width": 9313,
-          "partOf": [
-            {
-              "id": "https://curio.lib.utexas.edu/canvas/Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 05].json",
-              "type": "Canvas",
-              "label": {
-                "none": [
-                  "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 05]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://curio.lib.utexas.edu/assets/DAMS/utlmaps/utlmaps_cd280006-67e2-4bc3-b8bd-dc1a13b87fe7/manifests/2/utlmaps_cd280006-67e2-4bc3-b8bd-dc1a13b87fe7.json",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Sanborn Fire Insurance Maps [San Antonio, Texas, 1896; sheet 05]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "University of Texas Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://lib.utexas.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"9313\" height=\"10195\"><polygon points=\"0,0 0,10195 9313,10195 9313,0\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1013,
-                9754
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.50674416702935,
-                29.42302981995168
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1094,
-                3586
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.50647187812147,
-                29.425273523753308
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4178,
-                3604
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.505197913297,
-                29.425157993741195
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1063,
-                6675
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.50661433388377,
-                29.42409471541059
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4136,
-                6726
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -98.5053468763403,
-                29.423984537442863
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/2cfbf10e75f683e3",
-          "version": "https://annotations.allmaps.org/maps/2cfbf10e75f683e3@3c23a0092ec19646",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/4932cbea57bfd871",
-            "version": "https://annotations.allmaps.org/images/4932cbea57bfd871@011b342132b5a9e4",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/c58ab13dd9627540",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/c499a9710e584313"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 24.678282,
-          "area": 155900.32
         }
       }
     }
