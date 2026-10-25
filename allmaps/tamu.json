@@ -4,6 +4,518 @@
   "@context": "http://www.w3.org/ns/anno.jsonld",
   "items": [
     {
+      "id": "https://annotations.allmaps.org/maps/969d4fbd80c1cefe",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-25T18:09:23.965Z",
+      "modified": "2026-10-25T18:09:23.965Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/5c8%2Fimage-205page23-022f26e2-8778-4c59-9f84-e1abe06fb4b5.jp2",
+          "type": "ImageService2",
+          "height": 6489,
+          "width": 5553,
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5553\" height=\"6489\"><polygon points=\"589,550 570,5797 4479,5806 4485,555\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                958,
+                1872
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -83.47541499335252,
+                42.43761993527906
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1089,
+                2674
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -83.4680195981854,
+                42.3997473653632
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3247,
+                1780
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -83.32812303203538,
+                42.44178879569992
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3702,
+                5371
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -83.29522315751828,
+                42.26869430308108
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/969d4fbd80c1cefe",
+          "version": "https://annotations.allmaps.org/maps/969d4fbd80c1cefe@187b59cb7f4a4154",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/bc09694b3a65e0db",
+            "version": "https://annotations.allmaps.org/images/bc09694b3a65e0db@009c2523e82134c1",
+            "canvases": []
+          },
+          "scale": 0.187192,
+          "area": 584584100.35
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/9713f4d30d46a485",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-24T22:33:24.896Z",
+      "modified": "2026-10-24T22:33:24.896Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/2c7%2Fimage-084pg11-be0a2ae9-a2c6-4e99-a641-82433b8a27bd.jp2",
+          "type": "ImageService2",
+          "height": 6435,
+          "width": 5562,
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5562\" height=\"6435\"><polygon points=\"449,481 462,5724 4615,5703 4570,454\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1569,
+                4314
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.36620763961537,
+                38.1334213966133
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2216,
+                5233
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.290135308598,
+                38.04442848217465
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3986,
+                1012
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.07278793336371,
+                38.4461153818707
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1059,
+                4635
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.42801842882163,
+                38.10111960840965
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/9713f4d30d46a485",
+          "version": "https://annotations.allmaps.org/maps/9713f4d30d46a485@0b6646b6e5f4da3e",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/ab74270f42400352",
+            "version": "https://annotations.allmaps.org/images/ab74270f42400352@b51c2cfedd93aba5",
+            "canvases": []
+          },
+          "scale": 0.095006,
+          "area": 2404495350.46
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/7060ef1b74498212",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-24T22:29:10.226Z",
+      "modified": "2026-10-24T22:29:10.226Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/990%2Fimage-084pg10-80701ecf-5673-41eb-84bd-37b47043823a.jp2",
+          "type": "ImageService2",
+          "height": 6471,
+          "width": 5562,
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5562\" height=\"6471\"><polygon points=\"441,526 444,5765 4600,5751 4562,509\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1555,
+                4354
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.36624588660067,
+                38.13338887611761
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2200,
+                5276
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.29013108443482,
+                38.04465361957543
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3978,
+                1063
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.07301700797682,
+                38.44644646060701
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1046,
+                4681
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.42797788773252,
+                38.10100541576543
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/7060ef1b74498212",
+          "version": "https://annotations.allmaps.org/maps/7060ef1b74498212@bfd0a2b19f400cd7",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/1499a33d46ad9255",
+            "version": "https://annotations.allmaps.org/images/1499a33d46ad9255@ac721f167d7fba4c",
+            "canvases": []
+          },
+          "scale": 0.094928,
+          "area": 2406757924.85
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/7f45e09cb077b471",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-24T22:26:11.539Z",
+      "modified": "2026-10-24T22:26:11.539Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/5ee%2Fimage-084pg09-18239dc9-cf3c-4b67-99ab-a4260ac83777.jp2",
+          "type": "ImageService2",
+          "height": 6489,
+          "width": 5544,
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5544\" height=\"6489\"><polygon points=\"578,489 567,5736 4720,5733 4704,486\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1171,
+                4655
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.42779216697053,
+                38.10083185812837
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3925,
+                4774
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.0974871878659,
+                38.090304629464356
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2681,
+                5190
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.24655822395768,
+                38.05156781518983
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1681,
+                4334
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.3662242529443,
+                38.13328935229217
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                990,
+                5687
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -87.44999348065579,
+                38.0035256648064
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/7f45e09cb077b471",
+          "version": "https://annotations.allmaps.org/maps/7f45e09cb077b471@60fdd5d19b2a316f",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/6550240850f18e5b",
+            "version": "https://annotations.allmaps.org/images/6550240850f18e5b@ba1d975c7e5c3385",
+            "canvases": []
+          },
+          "scale": 0.09502,
+          "area": 2405623672.42
+        }
+      }
+    },
+    {
       "id": "https://annotations.allmaps.org/maps/1dd08ccccb3329d6",
       "type": "Annotation",
       "@context": [
@@ -8984,161 +9496,6 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/bcc244d338432c29",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-10-15T01:08:02.368Z",
-      "modified": "2026-10-15T01:08:02.368Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/c4d%2Fimage-service-maps-0133-0001-b1f32299-ff33-4e46-9cfc-0fadd21d8e22.jp2",
-          "type": "ImageService2",
-          "height": 9255,
-          "width": 11839,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/48e51cf8-29b0-43c5-bf59-08658133a1cc/iiif/canvas/p1",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "The route of the Ninth Division thru the NATOUSA & ETOUSA : Nov. 8, 1942 - June 1945"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/48e51cf8-29b0-43c5-bf59-08658133a1cc/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "The route of the Ninth Division thru the NATOUSA & ETOUSA : Nov. 8, 1942 - June 1945"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"11839\" height=\"9255\"><polygon points=\"499,6338 458,8866 4954,8876 4966,6319\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4843,
-                6681
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                15.55686152801343,
-                38.19282017659103
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1418,
-                7896
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                13.084658322813537,
-                37.50856059270579
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4552,
-                8641
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                15.290348147811471,
-                37.06827713893618
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                738,
-                7055
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                12.558323533586105,
-                37.98084887041128
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/bcc244d338432c29",
-          "version": "https://annotations.allmaps.org/maps/bcc244d338432c29@f0f6c1f2c6f32256",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/deb609cd479f0a3e",
-            "version": "https://annotations.allmaps.org/images/deb609cd479f0a3e@8f49cdcaafa6a590",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/b238b719e274ffe4",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/f088afe4a63510ab"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 0.015735,
-          "area": 46019764304.37
-        }
-      }
-    },
-    {
       "id": "https://annotations.allmaps.org/maps/fb22adbe988bc2a3",
       "type": "Annotation",
       "@context": [
@@ -9477,6 +9834,161 @@
           },
           "scale": 0.000704,
           "area": 11519536098085.39
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/bcc244d338432c29",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-15T01:08:02.368Z",
+      "modified": "2026-10-15T01:08:02.368Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/c4d%2Fimage-service-maps-0133-0001-b1f32299-ff33-4e46-9cfc-0fadd21d8e22.jp2",
+          "type": "ImageService2",
+          "height": 9255,
+          "width": 11839,
+          "partOf": [
+            {
+              "id": "https://digitalcollections.library.tamu.edu/do/48e51cf8-29b0-43c5-bf59-08658133a1cc/iiif/canvas/p1",
+              "type": "Canvas",
+              "label": {
+                "en": [
+                  "The route of the Ninth Division thru the NATOUSA & ETOUSA : Nov. 8, 1942 - June 1945"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://digitalcollections.library.tamu.edu/do/48e51cf8-29b0-43c5-bf59-08658133a1cc/metadata/iiifmanifest/default.jsonld",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "The route of the Ninth Division thru the NATOUSA & ETOUSA : Nov. 8, 1942 - June 1945"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"11839\" height=\"9255\"><polygon points=\"499,6338 458,8866 4954,8876 4966,6319\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4843,
+                6681
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.55686152801343,
+                38.19282017659103
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1418,
+                7896
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                13.084658322813537,
+                37.50856059270579
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4552,
+                8641
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.290348147811471,
+                37.06827713893618
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                738,
+                7055
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                12.558323533586105,
+                37.98084887041128
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/bcc244d338432c29",
+          "version": "https://annotations.allmaps.org/maps/bcc244d338432c29@f0f6c1f2c6f32256",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/deb609cd479f0a3e",
+            "version": "https://annotations.allmaps.org/images/deb609cd479f0a3e@8f49cdcaafa6a590",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/b238b719e274ffe4",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/f088afe4a63510ab"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 0.015735,
+          "area": 46019764304.37
         }
       }
     },
@@ -13271,161 +13783,6 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/ce32ae100e933a29",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-10-10T22:55:17.442Z",
-      "modified": "2026-10-10T22:55:17.442Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/b20%2Fimage-service-maps-0014-0001-c541e075-3d5c-4ee9-a4d4-85e1beeb90f2.jp2",
-          "type": "ImageService2",
-          "height": 7285,
-          "width": 9057,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/32617542-c4dd-4c2b-8209-6a10b76f82c5/iiif/canvas/p1",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "The fighting record of the Blackhawks in World War II"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/32617542-c4dd-4c2b-8209-6a10b76f82c5/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "The fighting record of the Blackhawks in World War II"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"9057\" height=\"7285\"><polygon points=\"6215,1237 6190,4431 7721,4424 7779,1229\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6894,
-                1703
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                11.067202173377211,
-                49.47698597968852
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7508,
-                1382
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                11.572062077053602,
-                49.94656735046934
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                7388,
-                4073
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                13.043692543249735,
-                47.802028478763646
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                6518,
-                3013
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                11.432400810726449,
-                48.25873357256236
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/ce32ae100e933a29",
-          "version": "https://annotations.allmaps.org/maps/ce32ae100e933a29@411b12ee0f027084",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/064446bb2170f26d",
-            "version": "https://annotations.allmaps.org/images/064446bb2170f26d@97b5e5b48d77cddd",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/dad1cb248003c9b8",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/0c98b5ac435c3cbb"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 0.010338,
-          "area": 46250117454.74
-        }
-      }
-    },
-    {
       "id": "https://annotations.allmaps.org/maps/827197020a18c4bb",
       "type": "Annotation",
       "@context": [
@@ -13609,6 +13966,161 @@
           },
           "scale": 0.005202,
           "area": 1343246788576.15
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/ce32ae100e933a29",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-10-10T22:55:17.442Z",
+      "modified": "2026-10-10T22:55:17.442Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/b20%2Fimage-service-maps-0014-0001-c541e075-3d5c-4ee9-a4d4-85e1beeb90f2.jp2",
+          "type": "ImageService2",
+          "height": 7285,
+          "width": 9057,
+          "partOf": [
+            {
+              "id": "https://digitalcollections.library.tamu.edu/do/32617542-c4dd-4c2b-8209-6a10b76f82c5/iiif/canvas/p1",
+              "type": "Canvas",
+              "label": {
+                "en": [
+                  "The fighting record of the Blackhawks in World War II"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://digitalcollections.library.tamu.edu/do/32617542-c4dd-4c2b-8209-6a10b76f82c5/metadata/iiifmanifest/default.jsonld",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "The fighting record of the Blackhawks in World War II"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"9057\" height=\"7285\"><polygon points=\"6215,1237 6190,4431 7721,4424 7779,1229\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6894,
+                1703
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                11.067202173377211,
+                49.47698597968852
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7508,
+                1382
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                11.572062077053602,
+                49.94656735046934
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                7388,
+                4073
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                13.043692543249735,
+                47.802028478763646
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6518,
+                3013
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                11.432400810726449,
+                48.25873357256236
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/ce32ae100e933a29",
+          "version": "https://annotations.allmaps.org/maps/ce32ae100e933a29@411b12ee0f027084",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/064446bb2170f26d",
+            "version": "https://annotations.allmaps.org/images/064446bb2170f26d@97b5e5b48d77cddd",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/dad1cb248003c9b8",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/0c98b5ac435c3cbb"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 0.010338,
+          "area": 46250117454.74
         }
       }
     },
@@ -20624,241 +21136,6 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/bc5db17bca88df0d",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-09-27T03:19:29.476Z",
-      "modified": "2026-09-27T03:19:29.476Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/167%2Fimage-service-maps-0011-0001-ba70f56d-c69c-4d80-bedb-09bf810b9336.jp2",
-          "type": "ImageService2",
-          "height": 9267,
-          "width": 12005,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/eddf2918-8146-46f1-9213-09c08e7fdf9c/iiif/canvas/p1",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "84th Infantry Division, from activation 15 Oct 42, to V-E Day, 9 May 45"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/eddf2918-8146-46f1-9213-09c08e7fdf9c/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "84th Infantry Division, from activation 15 Oct 42, to V-E Day, 9 May 45"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"12005\" height=\"9267\"><polygon points=\"1260,4234 709,6087 691,7096 1041,7341 3018,6646 4194,6456 4388,6110 4295,5849 4284,5043 4639,4690 4935,4454 5195,3774 5884,3273 6579,3365 7426,3392 7875,3055 8342,2861 9318,2688 9604,2848 10173,3000 10687,2839 11150,2461 11420,2232 11214,1567 10258,1086 9755,747 8605,799 7025,1191 5357,1928 5108,2004 4034,2470 3722,2624 3032,3050\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1529,
-                6727
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                3.404555253431027,
-                49.04466917994958
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                9492,
-                1280
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                11.749840383977244,
-                52.99836352058614
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                834,
-                6011
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                2.825703382951474,
-                49.41897110923776
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                9569,
-                1861
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                11.863993099488596,
-                52.606666085942976
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                789,
-                7005
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                2.3532524051111636,
-                48.85921708621393
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5625,
-                2670
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                7.622379152471326,
-                51.9640942876577
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                8310,
-                1354
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                10.563340241284891,
-                52.963559515288416
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                2018,
-                6467
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                4.033277179415933,
-                49.25714617036769
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                10204,
-                2160
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                12.54951442606594,
-                52.41156579632207
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/bc5db17bca88df0d",
-          "version": "https://annotations.allmaps.org/maps/bc5db17bca88df0d@d0ae1e0770d2f0f2",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/dedd6b61837fddab",
-            "version": "https://annotations.allmaps.org/images/dedd6b61837fddab@2e73c30ef041de14",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/7ed87b2c26ff8427",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/22346a1d871f09f2"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 0.01346,
-          "area": 140834065710.22
-        }
-      }
-    },
-    {
       "id": "https://annotations.allmaps.org/maps/3f35ccff815290f0",
       "type": "Annotation",
       "@context": [
@@ -21277,6 +21554,241 @@
           },
           "scale": 0.027142,
           "area": 4054289619.75
+        }
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/bc5db17bca88df0d",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "created": "2026-09-27T03:19:29.476Z",
+      "modified": "2026-09-27T03:19:29.476Z",
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://digitalcollections.library.tamu.edu/iiif/2/167%2Fimage-service-maps-0011-0001-ba70f56d-c69c-4d80-bedb-09bf810b9336.jp2",
+          "type": "ImageService2",
+          "height": 9267,
+          "width": 12005,
+          "partOf": [
+            {
+              "id": "https://digitalcollections.library.tamu.edu/do/eddf2918-8146-46f1-9213-09c08e7fdf9c/iiif/canvas/p1",
+              "type": "Canvas",
+              "label": {
+                "en": [
+                  "84th Infantry Division, from activation 15 Oct 42, to V-E Day, 9 May 45"
+                ]
+              },
+              "partOf": [
+                {
+                  "id": "https://digitalcollections.library.tamu.edu/do/eddf2918-8146-46f1-9213-09c08e7fdf9c/metadata/iiifmanifest/default.jsonld",
+                  "type": "Manifest",
+                  "label": {
+                    "en": [
+                      "84th Infantry Division, from activation 15 Oct 42, to V-E Day, 9 May 45"
+                    ]
+                  }
+                }
+              ]
+            }
+          ],
+          "provider": [
+            {
+              "label": {
+                "none": [
+                  "Texas A&M University Libraries"
+                ]
+              },
+              "homepage": [
+                {
+                  "id": "https://library.tamu.edu/"
+                }
+              ]
+            }
+          ]
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"12005\" height=\"9267\"><polygon points=\"1260,4234 709,6087 691,7096 1041,7341 3018,6646 4194,6456 4388,6110 4295,5849 4284,5043 4639,4690 4935,4454 5195,3774 5884,3273 6579,3365 7426,3392 7875,3055 8342,2861 9318,2688 9604,2848 10173,3000 10687,2839 11150,2461 11420,2232 11214,1567 10258,1086 9755,747 8605,799 7025,1191 5357,1928 5108,2004 4034,2470 3722,2624 3032,3050\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1529,
+                6727
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                3.404555253431027,
+                49.04466917994958
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                9492,
+                1280
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                11.749840383977244,
+                52.99836352058614
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                834,
+                6011
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                2.825703382951474,
+                49.41897110923776
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                9569,
+                1861
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                11.863993099488596,
+                52.606666085942976
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                789,
+                7005
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                2.3532524051111636,
+                48.85921708621393
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5625,
+                2670
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                7.622379152471326,
+                51.9640942876577
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                8310,
+                1354
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                10.563340241284891,
+                52.963559515288416
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2018,
+                6467
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                4.033277179415933,
+                49.25714617036769
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                10204,
+                2160
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                12.54951442606594,
+                52.41156579632207
+              ]
+            }
+          }
+        ],
+        "_allmaps": {
+          "id": "https://annotations.allmaps.org/maps/bc5db17bca88df0d",
+          "version": "https://annotations.allmaps.org/maps/bc5db17bca88df0d@d0ae1e0770d2f0f2",
+          "image": {
+            "id": "https://annotations.allmaps.org/images/dedd6b61837fddab",
+            "version": "https://annotations.allmaps.org/images/dedd6b61837fddab@2e73c30ef041de14",
+            "canvases": [
+              {
+                "id": "https://annotations.allmaps.org/canvases/7ed87b2c26ff8427",
+                "manifests": [
+                  {
+                    "id": "https://annotations.allmaps.org/manifests/22346a1d871f09f2"
+                  }
+                ]
+              }
+            ]
+          },
+          "scale": 0.01346,
+          "area": 140834065710.22
         }
       }
     },
@@ -25410,7 +25922,7 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/cada2d46f190ee68",
+      "id": "https://annotations.allmaps.org/maps/1496f2ea36dc2f46",
       "type": "Annotation",
       "@context": [
         "http://iiif.io/api/extension/georef/1/context.json",
@@ -25465,31 +25977,28 @@
         },
         "selector": {
           "type": "SvgSelector",
-          "value": "<svg width=\"9380\" height=\"7157\"><polygon points=\"4957,997 4979,2998 7017,2993 7009,986 6396,985 6313,1233 5968,1311 5659,1193 5579,992\" /></svg>"
+          "value": "<svg width=\"9380\" height=\"7157\"><polygon points=\"3657,3776 2814,4036 2672,4315 2511,4832 2849,4835 2835,5342 3570,5115 3794,5685 4438,5698 4377,5175 4502,4979 4881,4811 4871,3747 4514,3761 4488,4079 4228,4124 3826,3850\" /></svg>"
         }
       },
       "body": {
         "type": "FeatureCollection",
         "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
+          "type": "thinPlateSpline"
         },
         "features": [
           {
             "type": "Feature",
             "properties": {
               "resourceCoords": [
-                6122,
-                2239
+                3627,
+                4344
               ]
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                -2.747983005083654,
-                52.70648425301141
+                -2.80312553781485,
+                54.05234158591566
               ]
             }
           },
@@ -25497,15 +26006,15 @@
             "type": "Feature",
             "properties": {
               "resourceCoords": [
-                5903,
-                1572
+                3299,
+                4041
               ]
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                -2.7501167124605956,
-                52.711191289677004
+                -2.807519822434841,
+                54.05472098980823
               ]
             }
           },
@@ -25513,22 +26022,70 @@
             "type": "Feature",
             "properties": {
               "resourceCoords": [
-                5751,
-                2573
+                3333,
+                4511
               ]
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                -2.754251445631269,
-                52.705089813975576
+                -2.8051625981817665,
+                54.05063494924405
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3545,
+                4953
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -2.8039541988270003,
+                54.04860268306256
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3228,
+                4669
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -2.806249728231478,
+                54.04997233427113
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3880,
+                4230
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                -2.79664952471623,
+                54.05371038052152
               ]
             }
           }
         ],
         "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/cada2d46f190ee68",
-          "version": "https://annotations.allmaps.org/maps/cada2d46f190ee68@04938aa0ddb5c80a",
+          "id": "https://annotations.allmaps.org/maps/1496f2ea36dc2f46",
+          "version": "https://annotations.allmaps.org/maps/1496f2ea36dc2f46@0cbdf676078263e6",
           "image": {
             "id": "https://annotations.allmaps.org/images/0afd8661bd43e8ad",
             "version": "https://annotations.allmaps.org/images/0afd8661bd43e8ad@69ec0bb3603adff6",
@@ -25543,8 +26100,8 @@
               }
             ]
           },
-          "scale": 1.145588,
-          "area": 2975537.13
+          "scale": 1.135133,
+          "area": 2342288.61
         }
       }
     },
@@ -25736,7 +26293,7 @@
       }
     },
     {
-      "id": "https://annotations.allmaps.org/maps/1496f2ea36dc2f46",
+      "id": "https://annotations.allmaps.org/maps/cada2d46f190ee68",
       "type": "Annotation",
       "@context": [
         "http://iiif.io/api/extension/georef/1/context.json",
@@ -25791,28 +26348,31 @@
         },
         "selector": {
           "type": "SvgSelector",
-          "value": "<svg width=\"9380\" height=\"7157\"><polygon points=\"3657,3776 2814,4036 2672,4315 2511,4832 2849,4835 2835,5342 3570,5115 3794,5685 4438,5698 4377,5175 4502,4979 4881,4811 4871,3747 4514,3761 4488,4079 4228,4124 3826,3850\" /></svg>"
+          "value": "<svg width=\"9380\" height=\"7157\"><polygon points=\"4957,997 4979,2998 7017,2993 7009,986 6396,985 6313,1233 5968,1311 5659,1193 5579,992\" /></svg>"
         }
       },
       "body": {
         "type": "FeatureCollection",
         "transformation": {
-          "type": "thinPlateSpline"
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
         },
         "features": [
           {
             "type": "Feature",
             "properties": {
               "resourceCoords": [
-                3627,
-                4344
+                6122,
+                2239
               ]
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                -2.80312553781485,
-                54.05234158591566
+                -2.747983005083654,
+                52.70648425301141
               ]
             }
           },
@@ -25820,15 +26380,15 @@
             "type": "Feature",
             "properties": {
               "resourceCoords": [
-                3299,
-                4041
+                5903,
+                1572
               ]
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                -2.807519822434841,
-                54.05472098980823
+                -2.7501167124605956,
+                52.711191289677004
               ]
             }
           },
@@ -25836,70 +26396,22 @@
             "type": "Feature",
             "properties": {
               "resourceCoords": [
-                3333,
-                4511
+                5751,
+                2573
               ]
             },
             "geometry": {
               "type": "Point",
               "coordinates": [
-                -2.8051625981817665,
-                54.05063494924405
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                3545,
-                4953
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -2.8039541988270003,
-                54.04860268306256
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                3228,
-                4669
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -2.806249728231478,
-                54.04997233427113
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                3880,
-                4230
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -2.79664952471623,
-                54.05371038052152
+                -2.754251445631269,
+                52.705089813975576
               ]
             }
           }
         ],
         "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/1496f2ea36dc2f46",
-          "version": "https://annotations.allmaps.org/maps/1496f2ea36dc2f46@0cbdf676078263e6",
+          "id": "https://annotations.allmaps.org/maps/cada2d46f190ee68",
+          "version": "https://annotations.allmaps.org/maps/cada2d46f190ee68@04938aa0ddb5c80a",
           "image": {
             "id": "https://annotations.allmaps.org/images/0afd8661bd43e8ad",
             "version": "https://annotations.allmaps.org/images/0afd8661bd43e8ad@69ec0bb3603adff6",
@@ -25914,8 +26426,8 @@
               }
             ]
           },
-          "scale": 1.135133,
-          "area": 2342288.61
+          "scale": 1.145588,
+          "area": 2975537.13
         }
       }
     },
@@ -29477,754 +29989,6 @@
           },
           "scale": 4.72678,
           "area": 992877.59
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/738ce604adbf03fc",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-07-28T05:03:10.549Z",
-      "modified": "2026-07-28T05:03:10.549Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/6bf%2Fimage-londonmaps-3970935-01-9b2961b5-a0b0-49bb-aa2e-bea241f42a9b.jpg",
-          "type": "ImageService2",
-          "height": 6123,
-          "width": 5991,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/69c6be20-6738-4801-9ff5-02e0abd8c644/iiif/canvas/p1",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "1 of 11 images: Ordnance survey national grid plans, scale 1:2500 [Westminster]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/69c6be20-6738-4801-9ff5-02e0abd8c644/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Ordnance survey national grid plans, scale 1:2500 [Westminster]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"5991\" height=\"6123\"><polygon points=\"555,758 560,5470 5273,5433 5267,722\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4524,
-                1724
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.2157080927950972,
-                51.53939624941367
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                913,
-                3349
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.2268257129713902,
-                51.53654821179089
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1294,
-                4797
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.22576282480943632,
-                51.53377224593655
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                3801,
-                5158
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.21813907922521025,
-                51.53291806091795
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1068,
-                1588
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.22621501156177715,
-                51.53987447653884
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/738ce604adbf03fc",
-          "version": "https://annotations.allmaps.org/maps/738ce604adbf03fc@9b3ccf713b60b806",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/31400208d587df50",
-            "version": "https://annotations.allmaps.org/images/31400208d587df50@fe4318badd1e3285",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/165ed844dc1956fe",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/3cdfbf7df33f2c7d"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 4.730048,
-          "area": 992392.31
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/832f990a9aa9b5b1",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-07-28T02:54:20.506Z",
-      "modified": "2026-07-28T02:54:20.506Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/042%2Fimage-londonmaps-4447253-8-36b48be1-f452-4021-92d6-b19e8c066a11.jpg",
-          "type": "ImageService2",
-          "height": 6694,
-          "width": 5809,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/4d309eda-d4aa-4b15-9973-520d256f4eb7/iiif/canvas/p8",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "8 of 8 images: Ordnance survey national grid plans, scale 1:25,000 [London]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/4d309eda-d4aa-4b15-9973-520d256f4eb7/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Ordnance survey national grid plans, scale 1:25,000 [London]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"5809\" height=\"6694\"><polygon points=\"574,980 550,5683 5266,5674 5286,970\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1652,
-                5437
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.0945784406428345,
-                51.508001055459545
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4686,
-                5621
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.0017578628030889831,
-                51.50279945731134
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                751,
-                5535
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.12193064348537062,
-                51.50669822104268
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5163,
-                1438
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                0.015480146517603544,
-                51.582702852815345
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                621,
-                1254
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.12320956478401968,
-                51.58858281116713
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4565,
-                4909
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.005274528700937253,
-                51.51658094538294
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/832f990a9aa9b5b1",
-          "version": "https://annotations.allmaps.org/maps/832f990a9aa9b5b1@6e4bea368a7f13f4",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/8ab7b75cce1e1e25",
-            "version": "https://annotations.allmaps.org/images/8ab7b75cce1e1e25@594fc0ade914940d",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/a54bff6d68561b99",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/91c5af7b84656ce1"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 0.470635,
-          "area": 100100740.86
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/a7dfcace39cfaefe",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-07-28T02:50:18.626Z",
-      "modified": "2026-07-28T02:50:18.626Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/e00%2Fimage-londonmaps-4447253-7-0d645f52-46a1-44e9-9a8f-ccd003311864.jpg",
-          "type": "ImageService2",
-          "height": 6694,
-          "width": 5821,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/4d309eda-d4aa-4b15-9973-520d256f4eb7/iiif/canvas/p7",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "7 of 8 images: Ordnance survey national grid plans, scale 1:25,000 [London]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/4d309eda-d4aa-4b15-9973-520d256f4eb7/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Ordnance survey national grid plans, scale 1:25,000 [London]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"5821\" height=\"6694\"><polygon points=\"564,1040 526,5739 5245,5741 5282,1040\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4665,
-                5686
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.001764310325683027,
-                51.502795780178616
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                730,
-                5591
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.12194888037643635,
-                51.50670101291092
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                610,
-                1398
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.12341328812317442,
-                51.58700020619264
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                1630,
-                5496
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.09461068256322847,
-                51.50796505805033
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                925,
-                5545
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.11582046742555008,
-                51.507399073866026
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5156,
-                1508
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                0.015479383027781068,
-                51.58269571104654
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                2239,
-                5673
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.0761304538312686,
-                51.504380026929226
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                3300,
-                1448
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.04108381565939112,
-                51.58467941613776
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/a7dfcace39cfaefe",
-          "version": "https://annotations.allmaps.org/maps/a7dfcace39cfaefe@19c7d840ff1b308a",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/64adaa918d8dd81d",
-            "version": "https://annotations.allmaps.org/images/64adaa918d8dd81d@514af4b5fa61794c",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/77a487ab8a8b102f",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/91c5af7b84656ce1"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 0.470393,
-          "area": 100226039.82
-        }
-      }
-    },
-    {
-      "id": "https://annotations.allmaps.org/maps/0d15c4de4c63f36c",
-      "type": "Annotation",
-      "@context": [
-        "http://iiif.io/api/extension/georef/1/context.json",
-        "http://iiif.io/api/presentation/3/context.json"
-      ],
-      "created": "2026-07-28T02:43:24.610Z",
-      "modified": "2026-07-28T02:43:24.610Z",
-      "motivation": "georeferencing",
-      "target": {
-        "type": "SpecificResource",
-        "source": {
-          "id": "https://digitalcollections.library.tamu.edu/iiif/2/6e8%2Fimage-londonmaps-4447253-6-47894eff-5de8-4990-9170-12705f33ab9c.jpg",
-          "type": "ImageService2",
-          "height": 6706,
-          "width": 5856,
-          "partOf": [
-            {
-              "id": "https://digitalcollections.library.tamu.edu/do/4d309eda-d4aa-4b15-9973-520d256f4eb7/iiif/canvas/p6",
-              "type": "Canvas",
-              "label": {
-                "en": [
-                  "6 of 8 images: Ordnance survey national grid plans, scale 1:25,000 [London]"
-                ]
-              },
-              "partOf": [
-                {
-                  "id": "https://digitalcollections.library.tamu.edu/do/4d309eda-d4aa-4b15-9973-520d256f4eb7/metadata/iiifmanifest/default.jsonld",
-                  "type": "Manifest",
-                  "label": {
-                    "en": [
-                      "Ordnance survey national grid plans, scale 1:25,000 [London]"
-                    ]
-                  }
-                }
-              ]
-            }
-          ],
-          "provider": [
-            {
-              "label": {
-                "none": [
-                  "Texas A&M University Libraries"
-                ]
-              },
-              "homepage": [
-                {
-                  "id": "https://library.tamu.edu/"
-                }
-              ]
-            }
-          ]
-        },
-        "selector": {
-          "type": "SvgSelector",
-          "value": "<svg width=\"5856\" height=\"6706\"><polygon points=\"584,977 523,5676 5233,5707 5293,1002\" /></svg>"
-        }
-      },
-      "body": {
-        "type": "FeatureCollection",
-        "transformation": {
-          "type": "polynomial",
-          "options": {
-            "order": 1
-          }
-        },
-        "features": [
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                4485,
-                1824
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.009347878182751401,
-                51.486450916626325
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                642,
-                5367
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.12817412787106264,
-                51.419995415354805
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                856,
-                1136
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.11996577601860282,
-                51.50080665063268
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                5049,
-                5510
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                0.0060885813713298376,
-                51.41570954486116
-              ]
-            }
-          },
-          {
-            "type": "Feature",
-            "properties": {
-              "resourceCoords": [
-                715,
-                1457
-              ]
-            },
-            "geometry": {
-              "type": "Point",
-              "coordinates": [
-                -0.12469887104711573,
-                51.494776481826676
-              ]
-            }
-          }
-        ],
-        "_allmaps": {
-          "id": "https://annotations.allmaps.org/maps/0d15c4de4c63f36c",
-          "version": "https://annotations.allmaps.org/maps/0d15c4de4c63f36c@27c650216e38e251",
-          "image": {
-            "id": "https://annotations.allmaps.org/images/88c79e1a531d9c25",
-            "version": "https://annotations.allmaps.org/images/88c79e1a531d9c25@67a86b0cc41e02fe",
-            "canvases": [
-              {
-                "id": "https://annotations.allmaps.org/canvases/f069ff94d24563ef",
-                "manifests": [
-                  {
-                    "id": "https://annotations.allmaps.org/manifests/91c5af7b84656ce1"
-                  }
-                ]
-              }
-            ]
-          },
-          "scale": 0.470456,
-          "area": 100058391.2
         }
       }
     }
